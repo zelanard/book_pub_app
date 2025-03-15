@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json-schema.org/draft-07/schema",
+    "type": "object",
+    "title": "person",
+    "properties": {
+      "FirstName": {
+        "type": "string",
+        "minLength": 1
+      },
+      "LastName": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": ["FirstName", "LastName"]
+  }
