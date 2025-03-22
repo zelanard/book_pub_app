@@ -1,5 +1,11 @@
 import { Box, TextField } from "@mui/material";
 
+/**
+ * PersonForm component for creating/editing author and artist details.
+ * 
+ * @param {Object} param0 
+ * @returns {JSX.Element} The BookForm component
+ */
 const PersonForm = ({ showId, id, firstName, lastName, onFirstNameChange, onLastNameChange }) => {
     return (
         <Box

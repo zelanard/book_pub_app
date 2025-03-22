@@ -5,13 +5,30 @@ import { jwtDecode } from "jwt-decode";
 
 const AuthContext = createContext(null);
 
+/**
+ * Provides authentication context for the application, managing the token and application state 
+ * (Login, Logout, Create). It includes methods for login, logout, token validation, and 
+ * state management, ensuring the app behaves based on the user's authentication status.
+ * 
+ * @param {Object} param0 - The properties passed to the component.
+ * @param {JSX.Element} param0.children - The child components to render within the AuthProvider.
+ * 
+ * @returns {JSX.Element} The context provider wrapping the application with authentication state.
+ */
 const AuthProvider = ({ children }) => {
-  const [token, setToken] = useState(() => localStorage.getItem("token"));
+  const [token, setToken] = useState(() => sessionStorage.getItem("token"));
   const [appState, setAppState] = useState(() => {
-    const storedState = localStorage.getItem("appState");
+    const storedState = sessionStorage.getItem("appState");
     return storedState ? storedState : appStates.Login;
   });
 
+  /**
+   * Logs the user in by sending a POST request with login credentials.
+   * If successful, stores the token and updates the app state to "Logout".
+   * 
+   * @param {string} login - The username for login.
+   * @param {string} password - The password for login.
+   */
   const login = async (login, password) => {
     try {
       const response = await fetch(api.login, {
@@ -24,15 +41,21 @@ const AuthProvider = ({ children }) => {
 
       const data = await response.json();
       setToken(data.token);
-      localStorage.setItem("token", data.token);
+      sessionStorage.setItem("token", data.token);
 
       setAppState(appStates.Logout);
-      localStorage.setItem("appState", appStates.Logout);
+      sessionStorage.setItem("appState", appStates.Logout);
     } catch (error) {
       console.error(error);
     }
   };
 
+  /**
+   * Decodes the JWT token to retrieve the payload data.
+   * 
+   * @param {string} token - The JWT token to decode.
+   * @returns {Object|null} The decoded token data or null if invalid.
+   */
   const getTokenData = (token) => {
     try {
       return jwtDecode(token);
@@ -42,27 +65,39 @@ const AuthProvider = ({ children }) => {
     }
   };
 
+  /**
+   * Logs the user out by clearing the token and resetting the app state to "Login".
+   */
   const logout = () => {
     setToken(null);
-    localStorage.removeItem("token");
+    sessionStorage.removeItem("token");
     setAppState(appStates.Login);
-    localStorage.setItem("appState", appStates.Login);
+    sessionStorage.setItem("appState", appStates.Login);
   };
 
+  /**
+   * Changes the app state to "Create" for user creation and updates local storage.
+   */
   const createUser = () => {
     setAppState(appStates.Create);
-    localStorage.setItem("appState", appStates.Create);
+    sessionStorage.setItem("appState", appStates.Create);
   };
 
+  /**
+   * Resets the app state to "Login" for navigating back to the login screen.
+   */
   const goToLogin = () => {
     setAppState(appStates.Login);
-    localStorage.setItem("appState", appStates.Login);
+    sessionStorage.setItem("appState", appStates.Login);
   };
 
-  // Check token expiration every minute
+  /**
+   * Validates the stored token's expiration status and logs out the user if expired.
+   * Runs initially and every minute thereafter to ensure the token is still valid.
+   */
   useEffect(() => {
     const checkTokenValidity = () => {
-      const storedToken = localStorage.getItem("token");
+      const storedToken = sessionStorage.getItem("token");
       if (storedToken) {
         const decoded = getTokenData(storedToken);
         console.warn("You are still logged in!");

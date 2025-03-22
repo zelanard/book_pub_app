@@ -1,0 +1,2687 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: BookPub.Controllers
+  name: BookPub.Controllers
+  href: api/BookPub.Controllers.html
+  commentId: N:BookPub.Controllers
+  fullName: BookPub.Controllers
+  nameWithType: BookPub.Controllers
+- uid: BookPub.Controllers.ActionController`1
+  name: ActionController<TType>
+  href: api/BookPub.Controllers.ActionController-1.html
+  commentId: T:BookPub.Controllers.ActionController`1
+  name.vb: ActionController(Of TType)
+  fullName: BookPub.Controllers.ActionController<TType>
+  fullName.vb: BookPub.Controllers.ActionController(Of TType)
+  nameWithType: ActionController<TType>
+  nameWithType.vb: ActionController(Of TType)
+- uid: BookPub.Controllers.ActionController`1.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{`0})
+  name: ActionController(PublisherContext, IRepository<TType>)
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1__ctor_BookPubDB_Data_PublisherContext_BookPubDB_Repositories_IRepository__0__
+  commentId: M:BookPub.Controllers.ActionController`1.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{`0})
+  name.vb: ActionController(PublisherContext, IRepository(Of TType))
+  fullName: BookPub.Controllers.ActionController<TType>.ActionController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository<TType>)
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).ActionController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository(Of TType))
+  nameWithType: ActionController<TType>.ActionController(PublisherContext, IRepository<TType>)
+  nameWithType.vb: ActionController(Of TType).ActionController(PublisherContext, IRepository(Of TType))
+- uid: BookPub.Controllers.ActionController`1.#ctor*
+  name: ActionController
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1__ctor_
+  commentId: Overload:BookPub.Controllers.ActionController`1.#ctor
+  isSpec: "True"
+  fullName: BookPub.Controllers.ActionController<TType>.ActionController
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).ActionController
+  nameWithType: ActionController<TType>.ActionController
+  nameWithType.vb: ActionController(Of TType).ActionController
+- uid: BookPub.Controllers.ActionController`1.Context
+  name: Context
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Context
+  commentId: P:BookPub.Controllers.ActionController`1.Context
+  fullName: BookPub.Controllers.ActionController<TType>.Context
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Context
+  nameWithType: ActionController<TType>.Context
+  nameWithType.vb: ActionController(Of TType).Context
+- uid: BookPub.Controllers.ActionController`1.Context*
+  name: Context
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Context_
+  commentId: Overload:BookPub.Controllers.ActionController`1.Context
+  isSpec: "True"
+  fullName: BookPub.Controllers.ActionController<TType>.Context
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Context
+  nameWithType: ActionController<TType>.Context
+  nameWithType.vb: ActionController(Of TType).Context
+- uid: BookPub.Controllers.ActionController`1.Create(System.Object)
+  name: Create(Object)
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Create_System_Object_
+  commentId: M:BookPub.Controllers.ActionController`1.Create(System.Object)
+  fullName: BookPub.Controllers.ActionController<TType>.Create(System.Object)
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Create(System.Object)
+  nameWithType: ActionController<TType>.Create(Object)
+  nameWithType.vb: ActionController(Of TType).Create(Object)
+- uid: BookPub.Controllers.ActionController`1.Create*
+  name: Create
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Create_
+  commentId: Overload:BookPub.Controllers.ActionController`1.Create
+  isSpec: "True"
+  fullName: BookPub.Controllers.ActionController<TType>.Create
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Create
+  nameWithType: ActionController<TType>.Create
+  nameWithType.vb: ActionController(Of TType).Create
+- uid: BookPub.Controllers.ActionController`1.Delete(System.Int32)
+  name: Delete(Int32)
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Delete_System_Int32_
+  commentId: M:BookPub.Controllers.ActionController`1.Delete(System.Int32)
+  fullName: BookPub.Controllers.ActionController<TType>.Delete(System.Int32)
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Delete(System.Int32)
+  nameWithType: ActionController<TType>.Delete(Int32)
+  nameWithType.vb: ActionController(Of TType).Delete(Int32)
+- uid: BookPub.Controllers.ActionController`1.Delete*
+  name: Delete
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Delete_
+  commentId: Overload:BookPub.Controllers.ActionController`1.Delete
+  isSpec: "True"
+  fullName: BookPub.Controllers.ActionController<TType>.Delete
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Delete
+  nameWithType: ActionController<TType>.Delete
+  nameWithType.vb: ActionController(Of TType).Delete
+- uid: BookPub.Controllers.ActionController`1.Get(System.Int32)
+  name: Get(Int32)
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Get_System_Int32_
+  commentId: M:BookPub.Controllers.ActionController`1.Get(System.Int32)
+  fullName: BookPub.Controllers.ActionController<TType>.Get(System.Int32)
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Get(System.Int32)
+  nameWithType: ActionController<TType>.Get(Int32)
+  nameWithType.vb: ActionController(Of TType).Get(Int32)
+- uid: BookPub.Controllers.ActionController`1.Get*
+  name: Get
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Get_
+  commentId: Overload:BookPub.Controllers.ActionController`1.Get
+  isSpec: "True"
+  fullName: BookPub.Controllers.ActionController<TType>.Get
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Get
+  nameWithType: ActionController<TType>.Get
+  nameWithType.vb: ActionController(Of TType).Get
+- uid: BookPub.Controllers.ActionController`1.GetAll
+  name: GetAll()
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_GetAll
+  commentId: M:BookPub.Controllers.ActionController`1.GetAll
+  fullName: BookPub.Controllers.ActionController<TType>.GetAll()
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).GetAll()
+  nameWithType: ActionController<TType>.GetAll()
+  nameWithType.vb: ActionController(Of TType).GetAll()
+- uid: BookPub.Controllers.ActionController`1.GetAll*
+  name: GetAll
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_GetAll_
+  commentId: Overload:BookPub.Controllers.ActionController`1.GetAll
+  isSpec: "True"
+  fullName: BookPub.Controllers.ActionController<TType>.GetAll
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).GetAll
+  nameWithType: ActionController<TType>.GetAll
+  nameWithType.vb: ActionController(Of TType).GetAll
+- uid: BookPub.Controllers.ActionController`1.Repository
+  name: Repository
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Repository
+  commentId: P:BookPub.Controllers.ActionController`1.Repository
+  fullName: BookPub.Controllers.ActionController<TType>.Repository
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Repository
+  nameWithType: ActionController<TType>.Repository
+  nameWithType.vb: ActionController(Of TType).Repository
+- uid: BookPub.Controllers.ActionController`1.Repository*
+  name: Repository
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Repository_
+  commentId: Overload:BookPub.Controllers.ActionController`1.Repository
+  isSpec: "True"
+  fullName: BookPub.Controllers.ActionController<TType>.Repository
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Repository
+  nameWithType: ActionController<TType>.Repository
+  nameWithType.vb: ActionController(Of TType).Repository
+- uid: BookPub.Controllers.ActionController`1.ResponseHandler
+  name: ResponseHandler
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_ResponseHandler
+  commentId: P:BookPub.Controllers.ActionController`1.ResponseHandler
+  fullName: BookPub.Controllers.ActionController<TType>.ResponseHandler
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).ResponseHandler
+  nameWithType: ActionController<TType>.ResponseHandler
+  nameWithType.vb: ActionController(Of TType).ResponseHandler
+- uid: BookPub.Controllers.ActionController`1.ResponseHandler*
+  name: ResponseHandler
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_ResponseHandler_
+  commentId: Overload:BookPub.Controllers.ActionController`1.ResponseHandler
+  isSpec: "True"
+  fullName: BookPub.Controllers.ActionController<TType>.ResponseHandler
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).ResponseHandler
+  nameWithType: ActionController<TType>.ResponseHandler
+  nameWithType.vb: ActionController(Of TType).ResponseHandler
+- uid: BookPub.Controllers.ActionController`1.Update(System.Int32,System.Object)
+  name: Update(Int32, Object)
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Update_System_Int32_System_Object_
+  commentId: M:BookPub.Controllers.ActionController`1.Update(System.Int32,System.Object)
+  fullName: BookPub.Controllers.ActionController<TType>.Update(System.Int32, System.Object)
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Update(System.Int32, System.Object)
+  nameWithType: ActionController<TType>.Update(Int32, Object)
+  nameWithType.vb: ActionController(Of TType).Update(Int32, Object)
+- uid: BookPub.Controllers.ActionController`1.Update*
+  name: Update
+  href: api/BookPub.Controllers.ActionController-1.html#BookPub_Controllers_ActionController_1_Update_
+  commentId: Overload:BookPub.Controllers.ActionController`1.Update
+  isSpec: "True"
+  fullName: BookPub.Controllers.ActionController<TType>.Update
+  fullName.vb: BookPub.Controllers.ActionController(Of TType).Update
+  nameWithType: ActionController<TType>.Update
+  nameWithType.vb: ActionController(Of TType).Update
+- uid: BookPub.Controllers.ArtistController
+  name: ArtistController
+  href: api/BookPub.Controllers.ArtistController.html
+  commentId: T:BookPub.Controllers.ArtistController
+  fullName: BookPub.Controllers.ArtistController
+  nameWithType: ArtistController
+- uid: BookPub.Controllers.ArtistController.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{BookPubDB.Model.Artist})
+  name: ArtistController(PublisherContext, IRepository<Artist>)
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController__ctor_BookPubDB_Data_PublisherContext_BookPubDB_Repositories_IRepository_BookPubDB_Model_Artist__
+  commentId: M:BookPub.Controllers.ArtistController.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{BookPubDB.Model.Artist})
+  name.vb: ArtistController(PublisherContext, IRepository(Of Artist))
+  fullName: BookPub.Controllers.ArtistController.ArtistController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository<BookPubDB.Model.Artist>)
+  fullName.vb: BookPub.Controllers.ArtistController.ArtistController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository(Of BookPubDB.Model.Artist))
+  nameWithType: ArtistController.ArtistController(PublisherContext, IRepository<Artist>)
+  nameWithType.vb: ArtistController.ArtistController(PublisherContext, IRepository(Of Artist))
+- uid: BookPub.Controllers.ArtistController.#ctor*
+  name: ArtistController
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController__ctor_
+  commentId: Overload:BookPub.Controllers.ArtistController.#ctor
+  isSpec: "True"
+  fullName: BookPub.Controllers.ArtistController.ArtistController
+  nameWithType: ArtistController.ArtistController
+- uid: BookPub.Controllers.ArtistController.Create(System.Object)
+  name: Create(Object)
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController_Create_System_Object_
+  commentId: M:BookPub.Controllers.ArtistController.Create(System.Object)
+  fullName: BookPub.Controllers.ArtistController.Create(System.Object)
+  nameWithType: ArtistController.Create(Object)
+- uid: BookPub.Controllers.ArtistController.Create*
+  name: Create
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController_Create_
+  commentId: Overload:BookPub.Controllers.ArtistController.Create
+  isSpec: "True"
+  fullName: BookPub.Controllers.ArtistController.Create
+  nameWithType: ArtistController.Create
+- uid: BookPub.Controllers.ArtistController.Delete(System.Int32)
+  name: Delete(Int32)
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController_Delete_System_Int32_
+  commentId: M:BookPub.Controllers.ArtistController.Delete(System.Int32)
+  fullName: BookPub.Controllers.ArtistController.Delete(System.Int32)
+  nameWithType: ArtistController.Delete(Int32)
+- uid: BookPub.Controllers.ArtistController.Delete*
+  name: Delete
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController_Delete_
+  commentId: Overload:BookPub.Controllers.ArtistController.Delete
+  isSpec: "True"
+  fullName: BookPub.Controllers.ArtistController.Delete
+  nameWithType: ArtistController.Delete
+- uid: BookPub.Controllers.ArtistController.Get(System.Int32)
+  name: Get(Int32)
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController_Get_System_Int32_
+  commentId: M:BookPub.Controllers.ArtistController.Get(System.Int32)
+  fullName: BookPub.Controllers.ArtistController.Get(System.Int32)
+  nameWithType: ArtistController.Get(Int32)
+- uid: BookPub.Controllers.ArtistController.Get*
+  name: Get
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController_Get_
+  commentId: Overload:BookPub.Controllers.ArtistController.Get
+  isSpec: "True"
+  fullName: BookPub.Controllers.ArtistController.Get
+  nameWithType: ArtistController.Get
+- uid: BookPub.Controllers.ArtistController.Update(System.Int32,System.Object)
+  name: Update(Int32, Object)
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController_Update_System_Int32_System_Object_
+  commentId: M:BookPub.Controllers.ArtistController.Update(System.Int32,System.Object)
+  fullName: BookPub.Controllers.ArtistController.Update(System.Int32, System.Object)
+  nameWithType: ArtistController.Update(Int32, Object)
+- uid: BookPub.Controllers.ArtistController.Update*
+  name: Update
+  href: api/BookPub.Controllers.ArtistController.html#BookPub_Controllers_ArtistController_Update_
+  commentId: Overload:BookPub.Controllers.ArtistController.Update
+  isSpec: "True"
+  fullName: BookPub.Controllers.ArtistController.Update
+  nameWithType: ArtistController.Update
+- uid: BookPub.Controllers.AuthController
+  name: AuthController
+  href: api/BookPub.Controllers.AuthController.html
+  commentId: T:BookPub.Controllers.AuthController
+  fullName: BookPub.Controllers.AuthController
+  nameWithType: AuthController
+- uid: BookPub.Controllers.AuthController.#ctor(Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser})
+  name: AuthController(UserManager<IdentityUser>, SignInManager<IdentityUser>)
+  href: api/BookPub.Controllers.AuthController.html#BookPub_Controllers_AuthController__ctor_Microsoft_AspNetCore_Identity_UserManager_Microsoft_AspNetCore_Identity_IdentityUser__Microsoft_AspNetCore_Identity_SignInManager_Microsoft_AspNetCore_Identity_IdentityUser__
+  commentId: M:BookPub.Controllers.AuthController.#ctor(Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser})
+  name.vb: AuthController(UserManager(Of IdentityUser), SignInManager(Of IdentityUser))
+  fullName: BookPub.Controllers.AuthController.AuthController(Microsoft.AspNetCore.Identity.UserManager<Microsoft.AspNetCore.Identity.IdentityUser>, Microsoft.AspNetCore.Identity.SignInManager<Microsoft.AspNetCore.Identity.IdentityUser>)
+  fullName.vb: BookPub.Controllers.AuthController.AuthController(Microsoft.AspNetCore.Identity.UserManager(Of Microsoft.AspNetCore.Identity.IdentityUser), Microsoft.AspNetCore.Identity.SignInManager(Of Microsoft.AspNetCore.Identity.IdentityUser))
+  nameWithType: AuthController.AuthController(UserManager<IdentityUser>, SignInManager<IdentityUser>)
+  nameWithType.vb: AuthController.AuthController(UserManager(Of IdentityUser), SignInManager(Of IdentityUser))
+- uid: BookPub.Controllers.AuthController.#ctor*
+  name: AuthController
+  href: api/BookPub.Controllers.AuthController.html#BookPub_Controllers_AuthController__ctor_
+  commentId: Overload:BookPub.Controllers.AuthController.#ctor
+  isSpec: "True"
+  fullName: BookPub.Controllers.AuthController.AuthController
+  nameWithType: AuthController.AuthController
+- uid: BookPub.Controllers.AuthController.Login(BookPubDB.Model.Identity.LoginUser,IConfiguration)
+  name: Login(LoginUser, IConfiguration)
+  href: api/BookPub.Controllers.AuthController.html#BookPub_Controllers_AuthController_Login_BookPubDB_Model_Identity_LoginUser_IConfiguration_
+  commentId: M:BookPub.Controllers.AuthController.Login(BookPubDB.Model.Identity.LoginUser,IConfiguration)
+  fullName: BookPub.Controllers.AuthController.Login(BookPubDB.Model.Identity.LoginUser, IConfiguration)
+  nameWithType: AuthController.Login(LoginUser, IConfiguration)
+- uid: BookPub.Controllers.AuthController.Login*
+  name: Login
+  href: api/BookPub.Controllers.AuthController.html#BookPub_Controllers_AuthController_Login_
+  commentId: Overload:BookPub.Controllers.AuthController.Login
+  isSpec: "True"
+  fullName: BookPub.Controllers.AuthController.Login
+  nameWithType: AuthController.Login
+- uid: BookPub.Controllers.AuthController.Register(BookPubDB.Model.Identity.User)
+  name: Register(User)
+  href: api/BookPub.Controllers.AuthController.html#BookPub_Controllers_AuthController_Register_BookPubDB_Model_Identity_User_
+  commentId: M:BookPub.Controllers.AuthController.Register(BookPubDB.Model.Identity.User)
+  fullName: BookPub.Controllers.AuthController.Register(BookPubDB.Model.Identity.User)
+  nameWithType: AuthController.Register(User)
+- uid: BookPub.Controllers.AuthController.Register*
+  name: Register
+  href: api/BookPub.Controllers.AuthController.html#BookPub_Controllers_AuthController_Register_
+  commentId: Overload:BookPub.Controllers.AuthController.Register
+  isSpec: "True"
+  fullName: BookPub.Controllers.AuthController.Register
+  nameWithType: AuthController.Register
+- uid: BookPub.Controllers.AuthorsController
+  name: AuthorsController
+  href: api/BookPub.Controllers.AuthorsController.html
+  commentId: T:BookPub.Controllers.AuthorsController
+  fullName: BookPub.Controllers.AuthorsController
+  nameWithType: AuthorsController
+- uid: BookPub.Controllers.AuthorsController.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{BookPubDB.Model.Author})
+  name: AuthorsController(PublisherContext, IRepository<Author>)
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController__ctor_BookPubDB_Data_PublisherContext_BookPubDB_Repositories_IRepository_BookPubDB_Model_Author__
+  commentId: M:BookPub.Controllers.AuthorsController.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{BookPubDB.Model.Author})
+  name.vb: AuthorsController(PublisherContext, IRepository(Of Author))
+  fullName: BookPub.Controllers.AuthorsController.AuthorsController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository<BookPubDB.Model.Author>)
+  fullName.vb: BookPub.Controllers.AuthorsController.AuthorsController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository(Of BookPubDB.Model.Author))
+  nameWithType: AuthorsController.AuthorsController(PublisherContext, IRepository<Author>)
+  nameWithType.vb: AuthorsController.AuthorsController(PublisherContext, IRepository(Of Author))
+- uid: BookPub.Controllers.AuthorsController.#ctor*
+  name: AuthorsController
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController__ctor_
+  commentId: Overload:BookPub.Controllers.AuthorsController.#ctor
+  isSpec: "True"
+  fullName: BookPub.Controllers.AuthorsController.AuthorsController
+  nameWithType: AuthorsController.AuthorsController
+- uid: BookPub.Controllers.AuthorsController.Create(System.Object)
+  name: Create(Object)
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController_Create_System_Object_
+  commentId: M:BookPub.Controllers.AuthorsController.Create(System.Object)
+  fullName: BookPub.Controllers.AuthorsController.Create(System.Object)
+  nameWithType: AuthorsController.Create(Object)
+- uid: BookPub.Controllers.AuthorsController.Create*
+  name: Create
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController_Create_
+  commentId: Overload:BookPub.Controllers.AuthorsController.Create
+  isSpec: "True"
+  fullName: BookPub.Controllers.AuthorsController.Create
+  nameWithType: AuthorsController.Create
+- uid: BookPub.Controllers.AuthorsController.Delete(System.Int32)
+  name: Delete(Int32)
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController_Delete_System_Int32_
+  commentId: M:BookPub.Controllers.AuthorsController.Delete(System.Int32)
+  fullName: BookPub.Controllers.AuthorsController.Delete(System.Int32)
+  nameWithType: AuthorsController.Delete(Int32)
+- uid: BookPub.Controllers.AuthorsController.Delete*
+  name: Delete
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController_Delete_
+  commentId: Overload:BookPub.Controllers.AuthorsController.Delete
+  isSpec: "True"
+  fullName: BookPub.Controllers.AuthorsController.Delete
+  nameWithType: AuthorsController.Delete
+- uid: BookPub.Controllers.AuthorsController.Get(System.Int32)
+  name: Get(Int32)
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController_Get_System_Int32_
+  commentId: M:BookPub.Controllers.AuthorsController.Get(System.Int32)
+  fullName: BookPub.Controllers.AuthorsController.Get(System.Int32)
+  nameWithType: AuthorsController.Get(Int32)
+- uid: BookPub.Controllers.AuthorsController.Get*
+  name: Get
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController_Get_
+  commentId: Overload:BookPub.Controllers.AuthorsController.Get
+  isSpec: "True"
+  fullName: BookPub.Controllers.AuthorsController.Get
+  nameWithType: AuthorsController.Get
+- uid: BookPub.Controllers.AuthorsController.Update(System.Int32,System.Object)
+  name: Update(Int32, Object)
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController_Update_System_Int32_System_Object_
+  commentId: M:BookPub.Controllers.AuthorsController.Update(System.Int32,System.Object)
+  fullName: BookPub.Controllers.AuthorsController.Update(System.Int32, System.Object)
+  nameWithType: AuthorsController.Update(Int32, Object)
+- uid: BookPub.Controllers.AuthorsController.Update*
+  name: Update
+  href: api/BookPub.Controllers.AuthorsController.html#BookPub_Controllers_AuthorsController_Update_
+  commentId: Overload:BookPub.Controllers.AuthorsController.Update
+  isSpec: "True"
+  fullName: BookPub.Controllers.AuthorsController.Update
+  nameWithType: AuthorsController.Update
+- uid: BookPub.Controllers.BookController
+  name: BookController
+  href: api/BookPub.Controllers.BookController.html
+  commentId: T:BookPub.Controllers.BookController
+  fullName: BookPub.Controllers.BookController
+  nameWithType: BookController
+- uid: BookPub.Controllers.BookController.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{BookPubDB.Model.Book})
+  name: BookController(PublisherContext, IRepository<Book>)
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController__ctor_BookPubDB_Data_PublisherContext_BookPubDB_Repositories_IRepository_BookPubDB_Model_Book__
+  commentId: M:BookPub.Controllers.BookController.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{BookPubDB.Model.Book})
+  name.vb: BookController(PublisherContext, IRepository(Of Book))
+  fullName: BookPub.Controllers.BookController.BookController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository<BookPubDB.Model.Book>)
+  fullName.vb: BookPub.Controllers.BookController.BookController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository(Of BookPubDB.Model.Book))
+  nameWithType: BookController.BookController(PublisherContext, IRepository<Book>)
+  nameWithType.vb: BookController.BookController(PublisherContext, IRepository(Of Book))
+- uid: BookPub.Controllers.BookController.#ctor*
+  name: BookController
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController__ctor_
+  commentId: Overload:BookPub.Controllers.BookController.#ctor
+  isSpec: "True"
+  fullName: BookPub.Controllers.BookController.BookController
+  nameWithType: BookController.BookController
+- uid: BookPub.Controllers.BookController.Create(System.Object)
+  name: Create(Object)
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController_Create_System_Object_
+  commentId: M:BookPub.Controllers.BookController.Create(System.Object)
+  fullName: BookPub.Controllers.BookController.Create(System.Object)
+  nameWithType: BookController.Create(Object)
+- uid: BookPub.Controllers.BookController.Create*
+  name: Create
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController_Create_
+  commentId: Overload:BookPub.Controllers.BookController.Create
+  isSpec: "True"
+  fullName: BookPub.Controllers.BookController.Create
+  nameWithType: BookController.Create
+- uid: BookPub.Controllers.BookController.Delete(System.Int32)
+  name: Delete(Int32)
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController_Delete_System_Int32_
+  commentId: M:BookPub.Controllers.BookController.Delete(System.Int32)
+  fullName: BookPub.Controllers.BookController.Delete(System.Int32)
+  nameWithType: BookController.Delete(Int32)
+- uid: BookPub.Controllers.BookController.Delete*
+  name: Delete
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController_Delete_
+  commentId: Overload:BookPub.Controllers.BookController.Delete
+  isSpec: "True"
+  fullName: BookPub.Controllers.BookController.Delete
+  nameWithType: BookController.Delete
+- uid: BookPub.Controllers.BookController.Get(System.Int32)
+  name: Get(Int32)
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController_Get_System_Int32_
+  commentId: M:BookPub.Controllers.BookController.Get(System.Int32)
+  fullName: BookPub.Controllers.BookController.Get(System.Int32)
+  nameWithType: BookController.Get(Int32)
+- uid: BookPub.Controllers.BookController.Get*
+  name: Get
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController_Get_
+  commentId: Overload:BookPub.Controllers.BookController.Get
+  isSpec: "True"
+  fullName: BookPub.Controllers.BookController.Get
+  nameWithType: BookController.Get
+- uid: BookPub.Controllers.BookController.Update(System.Int32,System.Object)
+  name: Update(Int32, Object)
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController_Update_System_Int32_System_Object_
+  commentId: M:BookPub.Controllers.BookController.Update(System.Int32,System.Object)
+  fullName: BookPub.Controllers.BookController.Update(System.Int32, System.Object)
+  nameWithType: BookController.Update(Int32, Object)
+- uid: BookPub.Controllers.BookController.Update*
+  name: Update
+  href: api/BookPub.Controllers.BookController.html#BookPub_Controllers_BookController_Update_
+  commentId: Overload:BookPub.Controllers.BookController.Update
+  isSpec: "True"
+  fullName: BookPub.Controllers.BookController.Update
+  nameWithType: BookController.Update
+- uid: BookPub.Controllers.CoverController
+  name: CoverController
+  href: api/BookPub.Controllers.CoverController.html
+  commentId: T:BookPub.Controllers.CoverController
+  fullName: BookPub.Controllers.CoverController
+  nameWithType: CoverController
+- uid: BookPub.Controllers.CoverController.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{BookPubDB.Model.Cover})
+  name: CoverController(PublisherContext, IRepository<Cover>)
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController__ctor_BookPubDB_Data_PublisherContext_BookPubDB_Repositories_IRepository_BookPubDB_Model_Cover__
+  commentId: M:BookPub.Controllers.CoverController.#ctor(BookPubDB.Data.PublisherContext,BookPubDB.Repositories.IRepository{BookPubDB.Model.Cover})
+  name.vb: CoverController(PublisherContext, IRepository(Of Cover))
+  fullName: BookPub.Controllers.CoverController.CoverController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository<BookPubDB.Model.Cover>)
+  fullName.vb: BookPub.Controllers.CoverController.CoverController(BookPubDB.Data.PublisherContext, BookPubDB.Repositories.IRepository(Of BookPubDB.Model.Cover))
+  nameWithType: CoverController.CoverController(PublisherContext, IRepository<Cover>)
+  nameWithType.vb: CoverController.CoverController(PublisherContext, IRepository(Of Cover))
+- uid: BookPub.Controllers.CoverController.#ctor*
+  name: CoverController
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController__ctor_
+  commentId: Overload:BookPub.Controllers.CoverController.#ctor
+  isSpec: "True"
+  fullName: BookPub.Controllers.CoverController.CoverController
+  nameWithType: CoverController.CoverController
+- uid: BookPub.Controllers.CoverController.Create(System.Object)
+  name: Create(Object)
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController_Create_System_Object_
+  commentId: M:BookPub.Controllers.CoverController.Create(System.Object)
+  fullName: BookPub.Controllers.CoverController.Create(System.Object)
+  nameWithType: CoverController.Create(Object)
+- uid: BookPub.Controllers.CoverController.Create*
+  name: Create
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController_Create_
+  commentId: Overload:BookPub.Controllers.CoverController.Create
+  isSpec: "True"
+  fullName: BookPub.Controllers.CoverController.Create
+  nameWithType: CoverController.Create
+- uid: BookPub.Controllers.CoverController.Delete(System.Int32)
+  name: Delete(Int32)
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController_Delete_System_Int32_
+  commentId: M:BookPub.Controllers.CoverController.Delete(System.Int32)
+  fullName: BookPub.Controllers.CoverController.Delete(System.Int32)
+  nameWithType: CoverController.Delete(Int32)
+- uid: BookPub.Controllers.CoverController.Delete*
+  name: Delete
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController_Delete_
+  commentId: Overload:BookPub.Controllers.CoverController.Delete
+  isSpec: "True"
+  fullName: BookPub.Controllers.CoverController.Delete
+  nameWithType: CoverController.Delete
+- uid: BookPub.Controllers.CoverController.Get(System.Int32)
+  name: Get(Int32)
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController_Get_System_Int32_
+  commentId: M:BookPub.Controllers.CoverController.Get(System.Int32)
+  fullName: BookPub.Controllers.CoverController.Get(System.Int32)
+  nameWithType: CoverController.Get(Int32)
+- uid: BookPub.Controllers.CoverController.Get*
+  name: Get
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController_Get_
+  commentId: Overload:BookPub.Controllers.CoverController.Get
+  isSpec: "True"
+  fullName: BookPub.Controllers.CoverController.Get
+  nameWithType: CoverController.Get
+- uid: BookPub.Controllers.CoverController.Update(System.Int32,System.Object)
+  name: Update(Int32, Object)
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController_Update_System_Int32_System_Object_
+  commentId: M:BookPub.Controllers.CoverController.Update(System.Int32,System.Object)
+  fullName: BookPub.Controllers.CoverController.Update(System.Int32, System.Object)
+  nameWithType: CoverController.Update(Int32, Object)
+- uid: BookPub.Controllers.CoverController.Update*
+  name: Update
+  href: api/BookPub.Controllers.CoverController.html#BookPub_Controllers_CoverController_Update_
+  commentId: Overload:BookPub.Controllers.CoverController.Update
+  isSpec: "True"
+  fullName: BookPub.Controllers.CoverController.Update
+  nameWithType: CoverController.Update
+- uid: BookPub.Controllers.HttpResponseGenerator`1
+  name: HttpResponseGenerator<TType>
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html
+  commentId: T:BookPub.Controllers.HttpResponseGenerator`1
+  name.vb: HttpResponseGenerator(Of TType)
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType)
+  nameWithType: HttpResponseGenerator<TType>
+  nameWithType.vb: HttpResponseGenerator(Of TType)
+- uid: BookPub.Controllers.HttpResponseGenerator`1.#ctor
+  name: HttpResponseGenerator()
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1__ctor
+  commentId: M:BookPub.Controllers.HttpResponseGenerator`1.#ctor
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.HttpResponseGenerator()
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).HttpResponseGenerator()
+  nameWithType: HttpResponseGenerator<TType>.HttpResponseGenerator()
+  nameWithType.vb: HttpResponseGenerator(Of TType).HttpResponseGenerator()
+- uid: BookPub.Controllers.HttpResponseGenerator`1.#ctor*
+  name: HttpResponseGenerator
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1__ctor_
+  commentId: Overload:BookPub.Controllers.HttpResponseGenerator`1.#ctor
+  isSpec: "True"
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.HttpResponseGenerator
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).HttpResponseGenerator
+  nameWithType: HttpResponseGenerator<TType>.HttpResponseGenerator
+  nameWithType.vb: HttpResponseGenerator(Of TType).HttpResponseGenerator
+- uid: BookPub.Controllers.HttpResponseGenerator`1.Created(`0)
+  name: Created(TType)
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1_Created__0_
+  commentId: M:BookPub.Controllers.HttpResponseGenerator`1.Created(`0)
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.Created(TType)
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).Created(TType)
+  nameWithType: HttpResponseGenerator<TType>.Created(TType)
+  nameWithType.vb: HttpResponseGenerator(Of TType).Created(TType)
+- uid: BookPub.Controllers.HttpResponseGenerator`1.Created*
+  name: Created
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1_Created_
+  commentId: Overload:BookPub.Controllers.HttpResponseGenerator`1.Created
+  isSpec: "True"
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.Created
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).Created
+  nameWithType: HttpResponseGenerator<TType>.Created
+  nameWithType.vb: HttpResponseGenerator(Of TType).Created
+- uid: BookPub.Controllers.HttpResponseGenerator`1.Deleted(`0)
+  name: Deleted(TType)
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1_Deleted__0_
+  commentId: M:BookPub.Controllers.HttpResponseGenerator`1.Deleted(`0)
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.Deleted(TType)
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).Deleted(TType)
+  nameWithType: HttpResponseGenerator<TType>.Deleted(TType)
+  nameWithType.vb: HttpResponseGenerator(Of TType).Deleted(TType)
+- uid: BookPub.Controllers.HttpResponseGenerator`1.Deleted*
+  name: Deleted
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1_Deleted_
+  commentId: Overload:BookPub.Controllers.HttpResponseGenerator`1.Deleted
+  isSpec: "True"
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.Deleted
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).Deleted
+  nameWithType: HttpResponseGenerator<TType>.Deleted
+  nameWithType.vb: HttpResponseGenerator(Of TType).Deleted
+- uid: BookPub.Controllers.HttpResponseGenerator`1.Ok(`0)
+  name: Ok(TType)
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1_Ok__0_
+  commentId: M:BookPub.Controllers.HttpResponseGenerator`1.Ok(`0)
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.Ok(TType)
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).Ok(TType)
+  nameWithType: HttpResponseGenerator<TType>.Ok(TType)
+  nameWithType.vb: HttpResponseGenerator(Of TType).Ok(TType)
+- uid: BookPub.Controllers.HttpResponseGenerator`1.Ok(List{`0})
+  name: Ok(List<TType>)
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1_Ok_List__0__
+  commentId: M:BookPub.Controllers.HttpResponseGenerator`1.Ok(List{`0})
+  name.vb: Ok(List(Of TType))
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.Ok(List<TType>)
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).Ok(List(Of TType))
+  nameWithType: HttpResponseGenerator<TType>.Ok(List<TType>)
+  nameWithType.vb: HttpResponseGenerator(Of TType).Ok(List(Of TType))
+- uid: BookPub.Controllers.HttpResponseGenerator`1.Ok*
+  name: Ok
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1_Ok_
+  commentId: Overload:BookPub.Controllers.HttpResponseGenerator`1.Ok
+  isSpec: "True"
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.Ok
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).Ok
+  nameWithType: HttpResponseGenerator<TType>.Ok
+  nameWithType.vb: HttpResponseGenerator(Of TType).Ok
+- uid: BookPub.Controllers.HttpResponseGenerator`1.Update(`0)
+  name: Update(TType)
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1_Update__0_
+  commentId: M:BookPub.Controllers.HttpResponseGenerator`1.Update(`0)
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.Update(TType)
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).Update(TType)
+  nameWithType: HttpResponseGenerator<TType>.Update(TType)
+  nameWithType.vb: HttpResponseGenerator(Of TType).Update(TType)
+- uid: BookPub.Controllers.HttpResponseGenerator`1.Update*
+  name: Update
+  href: api/BookPub.Controllers.HttpResponseGenerator-1.html#BookPub_Controllers_HttpResponseGenerator_1_Update_
+  commentId: Overload:BookPub.Controllers.HttpResponseGenerator`1.Update
+  isSpec: "True"
+  fullName: BookPub.Controllers.HttpResponseGenerator<TType>.Update
+  fullName.vb: BookPub.Controllers.HttpResponseGenerator(Of TType).Update
+  nameWithType: HttpResponseGenerator<TType>.Update
+  nameWithType.vb: HttpResponseGenerator(Of TType).Update
+- uid: BookPub.Controllers.IActionController`1
+  name: IActionController<T>
+  href: api/BookPub.Controllers.IActionController-1.html
+  commentId: T:BookPub.Controllers.IActionController`1
+  name.vb: IActionController(Of T)
+  fullName: BookPub.Controllers.IActionController<T>
+  fullName.vb: BookPub.Controllers.IActionController(Of T)
+  nameWithType: IActionController<T>
+  nameWithType.vb: IActionController(Of T)
+- uid: BookPub.Controllers.IActionController`1.Create(System.Object)
+  name: Create(Object)
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_Create_System_Object_
+  commentId: M:BookPub.Controllers.IActionController`1.Create(System.Object)
+  fullName: BookPub.Controllers.IActionController<T>.Create(System.Object)
+  fullName.vb: BookPub.Controllers.IActionController(Of T).Create(System.Object)
+  nameWithType: IActionController<T>.Create(Object)
+  nameWithType.vb: IActionController(Of T).Create(Object)
+- uid: BookPub.Controllers.IActionController`1.Create*
+  name: Create
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_Create_
+  commentId: Overload:BookPub.Controllers.IActionController`1.Create
+  isSpec: "True"
+  fullName: BookPub.Controllers.IActionController<T>.Create
+  fullName.vb: BookPub.Controllers.IActionController(Of T).Create
+  nameWithType: IActionController<T>.Create
+  nameWithType.vb: IActionController(Of T).Create
+- uid: BookPub.Controllers.IActionController`1.Delete(System.Int32)
+  name: Delete(Int32)
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_Delete_System_Int32_
+  commentId: M:BookPub.Controllers.IActionController`1.Delete(System.Int32)
+  fullName: BookPub.Controllers.IActionController<T>.Delete(System.Int32)
+  fullName.vb: BookPub.Controllers.IActionController(Of T).Delete(System.Int32)
+  nameWithType: IActionController<T>.Delete(Int32)
+  nameWithType.vb: IActionController(Of T).Delete(Int32)
+- uid: BookPub.Controllers.IActionController`1.Delete*
+  name: Delete
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_Delete_
+  commentId: Overload:BookPub.Controllers.IActionController`1.Delete
+  isSpec: "True"
+  fullName: BookPub.Controllers.IActionController<T>.Delete
+  fullName.vb: BookPub.Controllers.IActionController(Of T).Delete
+  nameWithType: IActionController<T>.Delete
+  nameWithType.vb: IActionController(Of T).Delete
+- uid: BookPub.Controllers.IActionController`1.Get(System.Int32)
+  name: Get(Int32)
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_Get_System_Int32_
+  commentId: M:BookPub.Controllers.IActionController`1.Get(System.Int32)
+  fullName: BookPub.Controllers.IActionController<T>.Get(System.Int32)
+  fullName.vb: BookPub.Controllers.IActionController(Of T).Get(System.Int32)
+  nameWithType: IActionController<T>.Get(Int32)
+  nameWithType.vb: IActionController(Of T).Get(Int32)
+- uid: BookPub.Controllers.IActionController`1.Get*
+  name: Get
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_Get_
+  commentId: Overload:BookPub.Controllers.IActionController`1.Get
+  isSpec: "True"
+  fullName: BookPub.Controllers.IActionController<T>.Get
+  fullName.vb: BookPub.Controllers.IActionController(Of T).Get
+  nameWithType: IActionController<T>.Get
+  nameWithType.vb: IActionController(Of T).Get
+- uid: BookPub.Controllers.IActionController`1.GetAll
+  name: GetAll()
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_GetAll
+  commentId: M:BookPub.Controllers.IActionController`1.GetAll
+  fullName: BookPub.Controllers.IActionController<T>.GetAll()
+  fullName.vb: BookPub.Controllers.IActionController(Of T).GetAll()
+  nameWithType: IActionController<T>.GetAll()
+  nameWithType.vb: IActionController(Of T).GetAll()
+- uid: BookPub.Controllers.IActionController`1.GetAll*
+  name: GetAll
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_GetAll_
+  commentId: Overload:BookPub.Controllers.IActionController`1.GetAll
+  isSpec: "True"
+  fullName: BookPub.Controllers.IActionController<T>.GetAll
+  fullName.vb: BookPub.Controllers.IActionController(Of T).GetAll
+  nameWithType: IActionController<T>.GetAll
+  nameWithType.vb: IActionController(Of T).GetAll
+- uid: BookPub.Controllers.IActionController`1.Update(System.Int32,System.Object)
+  name: Update(Int32, Object)
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_Update_System_Int32_System_Object_
+  commentId: M:BookPub.Controllers.IActionController`1.Update(System.Int32,System.Object)
+  fullName: BookPub.Controllers.IActionController<T>.Update(System.Int32, System.Object)
+  fullName.vb: BookPub.Controllers.IActionController(Of T).Update(System.Int32, System.Object)
+  nameWithType: IActionController<T>.Update(Int32, Object)
+  nameWithType.vb: IActionController(Of T).Update(Int32, Object)
+- uid: BookPub.Controllers.IActionController`1.Update*
+  name: Update
+  href: api/BookPub.Controllers.IActionController-1.html#BookPub_Controllers_IActionController_1_Update_
+  commentId: Overload:BookPub.Controllers.IActionController`1.Update
+  isSpec: "True"
+  fullName: BookPub.Controllers.IActionController<T>.Update
+  fullName.vb: BookPub.Controllers.IActionController(Of T).Update
+  nameWithType: IActionController<T>.Update
+  nameWithType.vb: IActionController(Of T).Update
+- uid: BookPub.Filters.ActionFilters
+  name: BookPub.Filters.ActionFilters
+  href: api/BookPub.Filters.ActionFilters.html
+  commentId: N:BookPub.Filters.ActionFilters
+  fullName: BookPub.Filters.ActionFilters
+  nameWithType: BookPub.Filters.ActionFilters
+- uid: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute
+  name: ValidateCreate_FilterAttribute
+  href: api/BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.html
+  commentId: T:BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute
+  fullName: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute
+  nameWithType: ValidateCreate_FilterAttribute
+- uid: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  name: ValidateCreate_FilterAttribute(RepoKey)
+  href: api/BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateCreate_FilterAttribute__ctor_BookPub_Filters_BaseFilters_RepoKey_
+  commentId: M:BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  fullName: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.ValidateCreate_FilterAttribute(BookPub.Filters.BaseFilters.RepoKey)
+  nameWithType: ValidateCreate_FilterAttribute.ValidateCreate_FilterAttribute(RepoKey)
+- uid: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.#ctor*
+  name: ValidateCreate_FilterAttribute
+  href: api/BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateCreate_FilterAttribute__ctor_
+  commentId: Overload:BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.#ctor
+  isSpec: "True"
+  fullName: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.ValidateCreate_FilterAttribute
+  nameWithType: ValidateCreate_FilterAttribute.ValidateCreate_FilterAttribute
+- uid: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  name: OnActionExecuting(ActionExecutingContext)
+  href: api/BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateCreate_FilterAttribute_OnActionExecuting_Microsoft_AspNetCore_Mvc_Filters_ActionExecutingContext_
+  commentId: M:BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  fullName: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  nameWithType: ValidateCreate_FilterAttribute.OnActionExecuting(ActionExecutingContext)
+- uid: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.OnActionExecuting*
+  name: OnActionExecuting
+  href: api/BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateCreate_FilterAttribute_OnActionExecuting_
+  commentId: Overload:BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.OnActionExecuting
+  isSpec: "True"
+  fullName: BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.OnActionExecuting
+  nameWithType: ValidateCreate_FilterAttribute.OnActionExecuting
+- uid: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute
+  name: ValidateId_FilterAttribute
+  href: api/BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.html
+  commentId: T:BookPub.Filters.ActionFilters.ValidateId_FilterAttribute
+  fullName: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute
+  nameWithType: ValidateId_FilterAttribute
+- uid: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  name: ValidateId_FilterAttribute(RepoKey)
+  href: api/BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateId_FilterAttribute__ctor_BookPub_Filters_BaseFilters_RepoKey_
+  commentId: M:BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  fullName: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.ValidateId_FilterAttribute(BookPub.Filters.BaseFilters.RepoKey)
+  nameWithType: ValidateId_FilterAttribute.ValidateId_FilterAttribute(RepoKey)
+- uid: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.#ctor*
+  name: ValidateId_FilterAttribute
+  href: api/BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateId_FilterAttribute__ctor_
+  commentId: Overload:BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.#ctor
+  isSpec: "True"
+  fullName: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.ValidateId_FilterAttribute
+  nameWithType: ValidateId_FilterAttribute.ValidateId_FilterAttribute
+- uid: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  name: OnActionExecuting(ActionExecutingContext)
+  href: api/BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateId_FilterAttribute_OnActionExecuting_Microsoft_AspNetCore_Mvc_Filters_ActionExecutingContext_
+  commentId: M:BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  fullName: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  nameWithType: ValidateId_FilterAttribute.OnActionExecuting(ActionExecutingContext)
+- uid: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.OnActionExecuting*
+  name: OnActionExecuting
+  href: api/BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateId_FilterAttribute_OnActionExecuting_
+  commentId: Overload:BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.OnActionExecuting
+  isSpec: "True"
+  fullName: BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.OnActionExecuting
+  nameWithType: ValidateId_FilterAttribute.OnActionExecuting
+- uid: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute
+  name: ValidateUpdate_FilterAttribute
+  href: api/BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.html
+  commentId: T:BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute
+  fullName: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute
+  nameWithType: ValidateUpdate_FilterAttribute
+- uid: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  name: ValidateUpdate_FilterAttribute(RepoKey)
+  href: api/BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateUpdate_FilterAttribute__ctor_BookPub_Filters_BaseFilters_RepoKey_
+  commentId: M:BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  fullName: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.ValidateUpdate_FilterAttribute(BookPub.Filters.BaseFilters.RepoKey)
+  nameWithType: ValidateUpdate_FilterAttribute.ValidateUpdate_FilterAttribute(RepoKey)
+- uid: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.#ctor*
+  name: ValidateUpdate_FilterAttribute
+  href: api/BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateUpdate_FilterAttribute__ctor_
+  commentId: Overload:BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.#ctor
+  isSpec: "True"
+  fullName: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.ValidateUpdate_FilterAttribute
+  nameWithType: ValidateUpdate_FilterAttribute.ValidateUpdate_FilterAttribute
+- uid: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  name: OnActionExecuting(ActionExecutingContext)
+  href: api/BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateUpdate_FilterAttribute_OnActionExecuting_Microsoft_AspNetCore_Mvc_Filters_ActionExecutingContext_
+  commentId: M:BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  fullName: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)
+  nameWithType: ValidateUpdate_FilterAttribute.OnActionExecuting(ActionExecutingContext)
+- uid: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.OnActionExecuting*
+  name: OnActionExecuting
+  href: api/BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.html#BookPub_Filters_ActionFilters_ValidateUpdate_FilterAttribute_OnActionExecuting_
+  commentId: Overload:BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.OnActionExecuting
+  isSpec: "True"
+  fullName: BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.OnActionExecuting
+  nameWithType: ValidateUpdate_FilterAttribute.OnActionExecuting
+- uid: BookPub.Filters.BaseFilters
+  name: BookPub.Filters.BaseFilters
+  href: api/BookPub.Filters.BaseFilters.html
+  commentId: N:BookPub.Filters.BaseFilters
+  fullName: BookPub.Filters.BaseFilters
+  nameWithType: BookPub.Filters.BaseFilters
+- uid: BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute
+  name: BaseExceptionFilterAttribute
+  href: api/BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.html
+  commentId: T:BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute
+  fullName: BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute
+  nameWithType: BaseExceptionFilterAttribute
+- uid: BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  name: BaseExceptionFilterAttribute(RepoKey)
+  href: api/BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.html#BookPub_Filters_BaseFilters_BaseExceptionFilterAttribute__ctor_BookPub_Filters_BaseFilters_RepoKey_
+  commentId: M:BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  fullName: BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.BaseExceptionFilterAttribute(BookPub.Filters.BaseFilters.RepoKey)
+  nameWithType: BaseExceptionFilterAttribute.BaseExceptionFilterAttribute(RepoKey)
+- uid: BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.#ctor*
+  name: BaseExceptionFilterAttribute
+  href: api/BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.html#BookPub_Filters_BaseFilters_BaseExceptionFilterAttribute__ctor_
+  commentId: Overload:BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.#ctor
+  isSpec: "True"
+  fullName: BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.BaseExceptionFilterAttribute
+  nameWithType: BaseExceptionFilterAttribute.BaseExceptionFilterAttribute
+- uid: BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.RepositoryHandler
+  name: RepositoryHandler
+  href: api/BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.html#BookPub_Filters_BaseFilters_BaseExceptionFilterAttribute_RepositoryHandler
+  commentId: F:BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.RepositoryHandler
+  fullName: BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.RepositoryHandler
+  nameWithType: BaseExceptionFilterAttribute.RepositoryHandler
+- uid: BookPub.Filters.BaseFilters.BaseFilterAttribute
+  name: BaseFilterAttribute
+  href: api/BookPub.Filters.BaseFilters.BaseFilterAttribute.html
+  commentId: T:BookPub.Filters.BaseFilters.BaseFilterAttribute
+  fullName: BookPub.Filters.BaseFilters.BaseFilterAttribute
+  nameWithType: BaseFilterAttribute
+- uid: BookPub.Filters.BaseFilters.BaseFilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  name: BaseFilterAttribute(RepoKey)
+  href: api/BookPub.Filters.BaseFilters.BaseFilterAttribute.html#BookPub_Filters_BaseFilters_BaseFilterAttribute__ctor_BookPub_Filters_BaseFilters_RepoKey_
+  commentId: M:BookPub.Filters.BaseFilters.BaseFilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  fullName: BookPub.Filters.BaseFilters.BaseFilterAttribute.BaseFilterAttribute(BookPub.Filters.BaseFilters.RepoKey)
+  nameWithType: BaseFilterAttribute.BaseFilterAttribute(RepoKey)
+- uid: BookPub.Filters.BaseFilters.BaseFilterAttribute.#ctor*
+  name: BaseFilterAttribute
+  href: api/BookPub.Filters.BaseFilters.BaseFilterAttribute.html#BookPub_Filters_BaseFilters_BaseFilterAttribute__ctor_
+  commentId: Overload:BookPub.Filters.BaseFilters.BaseFilterAttribute.#ctor
+  isSpec: "True"
+  fullName: BookPub.Filters.BaseFilters.BaseFilterAttribute.BaseFilterAttribute
+  nameWithType: BaseFilterAttribute.BaseFilterAttribute
+- uid: BookPub.Filters.BaseFilters.BaseFilterAttribute.RepositoryHandler
+  name: RepositoryHandler
+  href: api/BookPub.Filters.BaseFilters.BaseFilterAttribute.html#BookPub_Filters_BaseFilters_BaseFilterAttribute_RepositoryHandler
+  commentId: F:BookPub.Filters.BaseFilters.BaseFilterAttribute.RepositoryHandler
+  fullName: BookPub.Filters.BaseFilters.BaseFilterAttribute.RepositoryHandler
+  nameWithType: BaseFilterAttribute.RepositoryHandler
+- uid: BookPub.Filters.BaseFilters.FilterRepositoryHandler
+  name: FilterRepositoryHandler
+  href: api/BookPub.Filters.BaseFilters.FilterRepositoryHandler.html
+  commentId: T:BookPub.Filters.BaseFilters.FilterRepositoryHandler
+  fullName: BookPub.Filters.BaseFilters.FilterRepositoryHandler
+  nameWithType: FilterRepositoryHandler
+- uid: BookPub.Filters.BaseFilters.FilterRepositoryHandler.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  name: FilterRepositoryHandler(RepoKey)
+  href: api/BookPub.Filters.BaseFilters.FilterRepositoryHandler.html#BookPub_Filters_BaseFilters_FilterRepositoryHandler__ctor_BookPub_Filters_BaseFilters_RepoKey_
+  commentId: M:BookPub.Filters.BaseFilters.FilterRepositoryHandler.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  fullName: BookPub.Filters.BaseFilters.FilterRepositoryHandler.FilterRepositoryHandler(BookPub.Filters.BaseFilters.RepoKey)
+  nameWithType: FilterRepositoryHandler.FilterRepositoryHandler(RepoKey)
+- uid: BookPub.Filters.BaseFilters.FilterRepositoryHandler.#ctor*
+  name: FilterRepositoryHandler
+  href: api/BookPub.Filters.BaseFilters.FilterRepositoryHandler.html#BookPub_Filters_BaseFilters_FilterRepositoryHandler__ctor_
+  commentId: Overload:BookPub.Filters.BaseFilters.FilterRepositoryHandler.#ctor
+  isSpec: "True"
+  fullName: BookPub.Filters.BaseFilters.FilterRepositoryHandler.FilterRepositoryHandler
+  nameWithType: FilterRepositoryHandler.FilterRepositoryHandler
+- uid: BookPub.Filters.BaseFilters.FilterRepositoryHandler.Repository
+  name: Repository()
+  href: api/BookPub.Filters.BaseFilters.FilterRepositoryHandler.html#BookPub_Filters_BaseFilters_FilterRepositoryHandler_Repository
+  commentId: M:BookPub.Filters.BaseFilters.FilterRepositoryHandler.Repository
+  fullName: BookPub.Filters.BaseFilters.FilterRepositoryHandler.Repository()
+  nameWithType: FilterRepositoryHandler.Repository()
+- uid: BookPub.Filters.BaseFilters.FilterRepositoryHandler.Repository*
+  name: Repository
+  href: api/BookPub.Filters.BaseFilters.FilterRepositoryHandler.html#BookPub_Filters_BaseFilters_FilterRepositoryHandler_Repository_
+  commentId: Overload:BookPub.Filters.BaseFilters.FilterRepositoryHandler.Repository
+  isSpec: "True"
+  fullName: BookPub.Filters.BaseFilters.FilterRepositoryHandler.Repository
+  nameWithType: FilterRepositoryHandler.Repository
+- uid: BookPub.Filters.BaseFilters.FilterRepositoryHandler.RKey
+  name: RKey
+  href: api/BookPub.Filters.BaseFilters.FilterRepositoryHandler.html#BookPub_Filters_BaseFilters_FilterRepositoryHandler_RKey
+  commentId: P:BookPub.Filters.BaseFilters.FilterRepositoryHandler.RKey
+  fullName: BookPub.Filters.BaseFilters.FilterRepositoryHandler.RKey
+  nameWithType: FilterRepositoryHandler.RKey
+- uid: BookPub.Filters.BaseFilters.FilterRepositoryHandler.RKey*
+  name: RKey
+  href: api/BookPub.Filters.BaseFilters.FilterRepositoryHandler.html#BookPub_Filters_BaseFilters_FilterRepositoryHandler_RKey_
+  commentId: Overload:BookPub.Filters.BaseFilters.FilterRepositoryHandler.RKey
+  isSpec: "True"
+  fullName: BookPub.Filters.BaseFilters.FilterRepositoryHandler.RKey
+  nameWithType: FilterRepositoryHandler.RKey
+- uid: BookPub.Filters.BaseFilters.RepoKey
+  name: RepoKey
+  href: api/BookPub.Filters.BaseFilters.RepoKey.html
+  commentId: T:BookPub.Filters.BaseFilters.RepoKey
+  fullName: BookPub.Filters.BaseFilters.RepoKey
+  nameWithType: RepoKey
+- uid: BookPub.Filters.BaseFilters.RepoKey.Artist
+  name: Artist
+  href: api/BookPub.Filters.BaseFilters.RepoKey.html#BookPub_Filters_BaseFilters_RepoKey_Artist
+  commentId: F:BookPub.Filters.BaseFilters.RepoKey.Artist
+  fullName: BookPub.Filters.BaseFilters.RepoKey.Artist
+  nameWithType: RepoKey.Artist
+- uid: BookPub.Filters.BaseFilters.RepoKey.Author
+  name: Author
+  href: api/BookPub.Filters.BaseFilters.RepoKey.html#BookPub_Filters_BaseFilters_RepoKey_Author
+  commentId: F:BookPub.Filters.BaseFilters.RepoKey.Author
+  fullName: BookPub.Filters.BaseFilters.RepoKey.Author
+  nameWithType: RepoKey.Author
+- uid: BookPub.Filters.BaseFilters.RepoKey.Book
+  name: Book
+  href: api/BookPub.Filters.BaseFilters.RepoKey.html#BookPub_Filters_BaseFilters_RepoKey_Book
+  commentId: F:BookPub.Filters.BaseFilters.RepoKey.Book
+  fullName: BookPub.Filters.BaseFilters.RepoKey.Book
+  nameWithType: RepoKey.Book
+- uid: BookPub.Filters.BaseFilters.RepoKey.Cover
+  name: Cover
+  href: api/BookPub.Filters.BaseFilters.RepoKey.html#BookPub_Filters_BaseFilters_RepoKey_Cover
+  commentId: F:BookPub.Filters.BaseFilters.RepoKey.Cover
+  fullName: BookPub.Filters.BaseFilters.RepoKey.Cover
+  nameWithType: RepoKey.Cover
+- uid: BookPub.Filters.ExceptionFilters
+  name: BookPub.Filters.ExceptionFilters
+  href: api/BookPub.Filters.ExceptionFilters.html
+  commentId: N:BookPub.Filters.ExceptionFilters
+  fullName: BookPub.Filters.ExceptionFilters
+  nameWithType: BookPub.Filters.ExceptionFilters
+- uid: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute
+  name: Update_ExceptionFilterAttribute
+  href: api/BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.html
+  commentId: T:BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute
+  fullName: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute
+  nameWithType: Update_ExceptionFilterAttribute
+- uid: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  name: Update_ExceptionFilterAttribute(RepoKey)
+  href: api/BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.html#BookPub_Filters_ExceptionFilters_Update_ExceptionFilterAttribute__ctor_BookPub_Filters_BaseFilters_RepoKey_
+  commentId: M:BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.#ctor(BookPub.Filters.BaseFilters.RepoKey)
+  fullName: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.Update_ExceptionFilterAttribute(BookPub.Filters.BaseFilters.RepoKey)
+  nameWithType: Update_ExceptionFilterAttribute.Update_ExceptionFilterAttribute(RepoKey)
+- uid: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.#ctor*
+  name: Update_ExceptionFilterAttribute
+  href: api/BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.html#BookPub_Filters_ExceptionFilters_Update_ExceptionFilterAttribute__ctor_
+  commentId: Overload:BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.#ctor
+  isSpec: "True"
+  fullName: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.Update_ExceptionFilterAttribute
+  nameWithType: Update_ExceptionFilterAttribute.Update_ExceptionFilterAttribute
+- uid: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)
+  name: OnException(ExceptionContext)
+  href: api/BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.html#BookPub_Filters_ExceptionFilters_Update_ExceptionFilterAttribute_OnException_Microsoft_AspNetCore_Mvc_Filters_ExceptionContext_
+  commentId: M:BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)
+  fullName: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)
+  nameWithType: Update_ExceptionFilterAttribute.OnException(ExceptionContext)
+- uid: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.OnException*
+  name: OnException
+  href: api/BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.html#BookPub_Filters_ExceptionFilters_Update_ExceptionFilterAttribute_OnException_
+  commentId: Overload:BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.OnException
+  isSpec: "True"
+  fullName: BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.OnException
+  nameWithType: Update_ExceptionFilterAttribute.OnException
+- uid: BookPub.Migrations
+  name: BookPub.Migrations
+  href: api/BookPub.Migrations.html
+  commentId: N:BookPub.Migrations
+  fullName: BookPub.Migrations
+  nameWithType: BookPub.Migrations
+- uid: BookPub.Migrations.Identity
+  name: BookPub.Migrations.Identity
+  href: api/BookPub.Migrations.Identity.html
+  commentId: N:BookPub.Migrations.Identity
+  fullName: BookPub.Migrations.Identity
+  nameWithType: BookPub.Migrations.Identity
+- uid: BookPub.Migrations.Identity.InitialCreate_Identity
+  name: InitialCreate_Identity
+  href: api/BookPub.Migrations.Identity.InitialCreate_Identity.html
+  commentId: T:BookPub.Migrations.Identity.InitialCreate_Identity
+  fullName: BookPub.Migrations.Identity.InitialCreate_Identity
+  nameWithType: InitialCreate_Identity
+- uid: BookPub.Migrations.Identity.InitialCreate_Identity.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: BuildTargetModel(ModelBuilder)
+  href: api/BookPub.Migrations.Identity.InitialCreate_Identity.html#BookPub_Migrations_Identity_InitialCreate_Identity_BuildTargetModel_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:BookPub.Migrations.Identity.InitialCreate_Identity.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: BookPub.Migrations.Identity.InitialCreate_Identity.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: InitialCreate_Identity.BuildTargetModel(ModelBuilder)
+- uid: BookPub.Migrations.Identity.InitialCreate_Identity.BuildTargetModel*
+  name: BuildTargetModel
+  href: api/BookPub.Migrations.Identity.InitialCreate_Identity.html#BookPub_Migrations_Identity_InitialCreate_Identity_BuildTargetModel_
+  commentId: Overload:BookPub.Migrations.Identity.InitialCreate_Identity.BuildTargetModel
+  isSpec: "True"
+  fullName: BookPub.Migrations.Identity.InitialCreate_Identity.BuildTargetModel
+  nameWithType: InitialCreate_Identity.BuildTargetModel
+- uid: BookPub.Migrations.Identity.InitialCreate_Identity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Down(MigrationBuilder)
+  href: api/BookPub.Migrations.Identity.InitialCreate_Identity.html#BookPub_Migrations_Identity_InitialCreate_Identity_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:BookPub.Migrations.Identity.InitialCreate_Identity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: BookPub.Migrations.Identity.InitialCreate_Identity.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: InitialCreate_Identity.Down(MigrationBuilder)
+- uid: BookPub.Migrations.Identity.InitialCreate_Identity.Down*
+  name: Down
+  href: api/BookPub.Migrations.Identity.InitialCreate_Identity.html#BookPub_Migrations_Identity_InitialCreate_Identity_Down_
+  commentId: Overload:BookPub.Migrations.Identity.InitialCreate_Identity.Down
+  isSpec: "True"
+  fullName: BookPub.Migrations.Identity.InitialCreate_Identity.Down
+  nameWithType: InitialCreate_Identity.Down
+- uid: BookPub.Migrations.Identity.InitialCreate_Identity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Up(MigrationBuilder)
+  href: api/BookPub.Migrations.Identity.InitialCreate_Identity.html#BookPub_Migrations_Identity_InitialCreate_Identity_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:BookPub.Migrations.Identity.InitialCreate_Identity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: BookPub.Migrations.Identity.InitialCreate_Identity.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: InitialCreate_Identity.Up(MigrationBuilder)
+- uid: BookPub.Migrations.Identity.InitialCreate_Identity.Up*
+  name: Up
+  href: api/BookPub.Migrations.Identity.InitialCreate_Identity.html#BookPub_Migrations_Identity_InitialCreate_Identity_Up_
+  commentId: Overload:BookPub.Migrations.Identity.InitialCreate_Identity.Up
+  isSpec: "True"
+  fullName: BookPub.Migrations.Identity.InitialCreate_Identity.Up
+  nameWithType: InitialCreate_Identity.Up
+- uid: BookPub.Migrations.InitialCreate_Publisher
+  name: InitialCreate_Publisher
+  href: api/BookPub.Migrations.InitialCreate_Publisher.html
+  commentId: T:BookPub.Migrations.InitialCreate_Publisher
+  fullName: BookPub.Migrations.InitialCreate_Publisher
+  nameWithType: InitialCreate_Publisher
+- uid: BookPub.Migrations.InitialCreate_Publisher.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: BuildTargetModel(ModelBuilder)
+  href: api/BookPub.Migrations.InitialCreate_Publisher.html#BookPub_Migrations_InitialCreate_Publisher_BuildTargetModel_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:BookPub.Migrations.InitialCreate_Publisher.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: BookPub.Migrations.InitialCreate_Publisher.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: InitialCreate_Publisher.BuildTargetModel(ModelBuilder)
+- uid: BookPub.Migrations.InitialCreate_Publisher.BuildTargetModel*
+  name: BuildTargetModel
+  href: api/BookPub.Migrations.InitialCreate_Publisher.html#BookPub_Migrations_InitialCreate_Publisher_BuildTargetModel_
+  commentId: Overload:BookPub.Migrations.InitialCreate_Publisher.BuildTargetModel
+  isSpec: "True"
+  fullName: BookPub.Migrations.InitialCreate_Publisher.BuildTargetModel
+  nameWithType: InitialCreate_Publisher.BuildTargetModel
+- uid: BookPub.Migrations.InitialCreate_Publisher.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Down(MigrationBuilder)
+  href: api/BookPub.Migrations.InitialCreate_Publisher.html#BookPub_Migrations_InitialCreate_Publisher_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:BookPub.Migrations.InitialCreate_Publisher.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: BookPub.Migrations.InitialCreate_Publisher.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: InitialCreate_Publisher.Down(MigrationBuilder)
+- uid: BookPub.Migrations.InitialCreate_Publisher.Down*
+  name: Down
+  href: api/BookPub.Migrations.InitialCreate_Publisher.html#BookPub_Migrations_InitialCreate_Publisher_Down_
+  commentId: Overload:BookPub.Migrations.InitialCreate_Publisher.Down
+  isSpec: "True"
+  fullName: BookPub.Migrations.InitialCreate_Publisher.Down
+  nameWithType: InitialCreate_Publisher.Down
+- uid: BookPub.Migrations.InitialCreate_Publisher.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Up(MigrationBuilder)
+  href: api/BookPub.Migrations.InitialCreate_Publisher.html#BookPub_Migrations_InitialCreate_Publisher_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:BookPub.Migrations.InitialCreate_Publisher.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: BookPub.Migrations.InitialCreate_Publisher.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: InitialCreate_Publisher.Up(MigrationBuilder)
+- uid: BookPub.Migrations.InitialCreate_Publisher.Up*
+  name: Up
+  href: api/BookPub.Migrations.InitialCreate_Publisher.html#BookPub_Migrations_InitialCreate_Publisher_Up_
+  commentId: Overload:BookPub.Migrations.InitialCreate_Publisher.Up
+  isSpec: "True"
+  fullName: BookPub.Migrations.InitialCreate_Publisher.Up
+  nameWithType: InitialCreate_Publisher.Up
+- uid: BookPubDB.Data
+  name: BookPubDB.Data
+  href: api/BookPubDB.Data.html
+  commentId: N:BookPubDB.Data
+  fullName: BookPubDB.Data
+  nameWithType: BookPubDB.Data
+- uid: BookPubDB.Data.IdentityContext
+  name: IdentityContext
+  href: api/BookPubDB.Data.IdentityContext.html
+  commentId: T:BookPubDB.Data.IdentityContext
+  fullName: BookPubDB.Data.IdentityContext
+  nameWithType: IdentityContext
+- uid: BookPubDB.Data.IdentityContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{BookPubDB.Data.IdentityContext})
+  name: IdentityContext(DbContextOptions<IdentityContext>)
+  href: api/BookPubDB.Data.IdentityContext.html#BookPubDB_Data_IdentityContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_BookPubDB_Data_IdentityContext__
+  commentId: M:BookPubDB.Data.IdentityContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{BookPubDB.Data.IdentityContext})
+  name.vb: IdentityContext(DbContextOptions(Of IdentityContext))
+  fullName: BookPubDB.Data.IdentityContext.IdentityContext(Microsoft.EntityFrameworkCore.DbContextOptions<BookPubDB.Data.IdentityContext>)
+  fullName.vb: BookPubDB.Data.IdentityContext.IdentityContext(Microsoft.EntityFrameworkCore.DbContextOptions(Of BookPubDB.Data.IdentityContext))
+  nameWithType: IdentityContext.IdentityContext(DbContextOptions<IdentityContext>)
+  nameWithType.vb: IdentityContext.IdentityContext(DbContextOptions(Of IdentityContext))
+- uid: BookPubDB.Data.IdentityContext.#ctor*
+  name: IdentityContext
+  href: api/BookPubDB.Data.IdentityContext.html#BookPubDB_Data_IdentityContext__ctor_
+  commentId: Overload:BookPubDB.Data.IdentityContext.#ctor
+  isSpec: "True"
+  fullName: BookPubDB.Data.IdentityContext.IdentityContext
+  nameWithType: IdentityContext.IdentityContext
+- uid: BookPubDB.Data.IdentityContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  name: OnConfiguring(DbContextOptionsBuilder)
+  href: api/BookPubDB.Data.IdentityContext.html#BookPubDB_Data_IdentityContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
+  commentId: M:BookPubDB.Data.IdentityContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  fullName: BookPubDB.Data.IdentityContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  nameWithType: IdentityContext.OnConfiguring(DbContextOptionsBuilder)
+- uid: BookPubDB.Data.IdentityContext.OnConfiguring*
+  name: OnConfiguring
+  href: api/BookPubDB.Data.IdentityContext.html#BookPubDB_Data_IdentityContext_OnConfiguring_
+  commentId: Overload:BookPubDB.Data.IdentityContext.OnConfiguring
+  isSpec: "True"
+  fullName: BookPubDB.Data.IdentityContext.OnConfiguring
+  nameWithType: IdentityContext.OnConfiguring
+- uid: BookPubDB.Data.IdentityContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: OnModelCreating(ModelBuilder)
+  href: api/BookPubDB.Data.IdentityContext.html#BookPubDB_Data_IdentityContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:BookPubDB.Data.IdentityContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: BookPubDB.Data.IdentityContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: IdentityContext.OnModelCreating(ModelBuilder)
+- uid: BookPubDB.Data.IdentityContext.OnModelCreating*
+  name: OnModelCreating
+  href: api/BookPubDB.Data.IdentityContext.html#BookPubDB_Data_IdentityContext_OnModelCreating_
+  commentId: Overload:BookPubDB.Data.IdentityContext.OnModelCreating
+  isSpec: "True"
+  fullName: BookPubDB.Data.IdentityContext.OnModelCreating
+  nameWithType: IdentityContext.OnModelCreating
+- uid: BookPubDB.Data.PublisherContext
+  name: PublisherContext
+  href: api/BookPubDB.Data.PublisherContext.html
+  commentId: T:BookPubDB.Data.PublisherContext
+  fullName: BookPubDB.Data.PublisherContext
+  nameWithType: PublisherContext
+- uid: BookPubDB.Data.PublisherContext.#ctor
+  name: PublisherContext()
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext__ctor
+  commentId: M:BookPubDB.Data.PublisherContext.#ctor
+  fullName: BookPubDB.Data.PublisherContext.PublisherContext()
+  nameWithType: PublisherContext.PublisherContext()
+- uid: BookPubDB.Data.PublisherContext.#ctor*
+  name: PublisherContext
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext__ctor_
+  commentId: Overload:BookPubDB.Data.PublisherContext.#ctor
+  isSpec: "True"
+  fullName: BookPubDB.Data.PublisherContext.PublisherContext
+  nameWithType: PublisherContext.PublisherContext
+- uid: BookPubDB.Data.PublisherContext.Artists
+  name: Artists
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_Artists
+  commentId: P:BookPubDB.Data.PublisherContext.Artists
+  fullName: BookPubDB.Data.PublisherContext.Artists
+  nameWithType: PublisherContext.Artists
+- uid: BookPubDB.Data.PublisherContext.Artists*
+  name: Artists
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_Artists_
+  commentId: Overload:BookPubDB.Data.PublisherContext.Artists
+  isSpec: "True"
+  fullName: BookPubDB.Data.PublisherContext.Artists
+  nameWithType: PublisherContext.Artists
+- uid: BookPubDB.Data.PublisherContext.Authors
+  name: Authors
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_Authors
+  commentId: P:BookPubDB.Data.PublisherContext.Authors
+  fullName: BookPubDB.Data.PublisherContext.Authors
+  nameWithType: PublisherContext.Authors
+- uid: BookPubDB.Data.PublisherContext.Authors*
+  name: Authors
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_Authors_
+  commentId: Overload:BookPubDB.Data.PublisherContext.Authors
+  isSpec: "True"
+  fullName: BookPubDB.Data.PublisherContext.Authors
+  nameWithType: PublisherContext.Authors
+- uid: BookPubDB.Data.PublisherContext.Books
+  name: Books
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_Books
+  commentId: P:BookPubDB.Data.PublisherContext.Books
+  fullName: BookPubDB.Data.PublisherContext.Books
+  nameWithType: PublisherContext.Books
+- uid: BookPubDB.Data.PublisherContext.Books*
+  name: Books
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_Books_
+  commentId: Overload:BookPubDB.Data.PublisherContext.Books
+  isSpec: "True"
+  fullName: BookPubDB.Data.PublisherContext.Books
+  nameWithType: PublisherContext.Books
+- uid: BookPubDB.Data.PublisherContext.Covers
+  name: Covers
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_Covers
+  commentId: P:BookPubDB.Data.PublisherContext.Covers
+  fullName: BookPubDB.Data.PublisherContext.Covers
+  nameWithType: PublisherContext.Covers
+- uid: BookPubDB.Data.PublisherContext.Covers*
+  name: Covers
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_Covers_
+  commentId: Overload:BookPubDB.Data.PublisherContext.Covers
+  isSpec: "True"
+  fullName: BookPubDB.Data.PublisherContext.Covers
+  nameWithType: PublisherContext.Covers
+- uid: BookPubDB.Data.PublisherContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  name: OnConfiguring(DbContextOptionsBuilder)
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_OnConfiguring_Microsoft_EntityFrameworkCore_DbContextOptionsBuilder_
+  commentId: M:BookPubDB.Data.PublisherContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  fullName: BookPubDB.Data.PublisherContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)
+  nameWithType: PublisherContext.OnConfiguring(DbContextOptionsBuilder)
+- uid: BookPubDB.Data.PublisherContext.OnConfiguring*
+  name: OnConfiguring
+  href: api/BookPubDB.Data.PublisherContext.html#BookPubDB_Data_PublisherContext_OnConfiguring_
+  commentId: Overload:BookPubDB.Data.PublisherContext.OnConfiguring
+  isSpec: "True"
+  fullName: BookPubDB.Data.PublisherContext.OnConfiguring
+  nameWithType: PublisherContext.OnConfiguring
+- uid: BookPubDB.DTOs
+  name: BookPubDB.DTOs
+  href: api/BookPubDB.DTOs.html
+  commentId: N:BookPubDB.DTOs
+  fullName: BookPubDB.DTOs
+  nameWithType: BookPubDB.DTOs
+- uid: BookPubDB.DTOs.ArtistDto
+  name: ArtistDto
+  href: api/BookPubDB.DTOs.ArtistDto.html
+  commentId: T:BookPubDB.DTOs.ArtistDto
+  fullName: BookPubDB.DTOs.ArtistDto
+  nameWithType: ArtistDto
+- uid: BookPubDB.DTOs.ArtistDto.FirstName
+  name: FirstName
+  href: api/BookPubDB.DTOs.ArtistDto.html#BookPubDB_DTOs_ArtistDto_FirstName
+  commentId: P:BookPubDB.DTOs.ArtistDto.FirstName
+  fullName: BookPubDB.DTOs.ArtistDto.FirstName
+  nameWithType: ArtistDto.FirstName
+- uid: BookPubDB.DTOs.ArtistDto.FirstName*
+  name: FirstName
+  href: api/BookPubDB.DTOs.ArtistDto.html#BookPubDB_DTOs_ArtistDto_FirstName_
+  commentId: Overload:BookPubDB.DTOs.ArtistDto.FirstName
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.ArtistDto.FirstName
+  nameWithType: ArtistDto.FirstName
+- uid: BookPubDB.DTOs.ArtistDto.LastName
+  name: LastName
+  href: api/BookPubDB.DTOs.ArtistDto.html#BookPubDB_DTOs_ArtistDto_LastName
+  commentId: P:BookPubDB.DTOs.ArtistDto.LastName
+  fullName: BookPubDB.DTOs.ArtistDto.LastName
+  nameWithType: ArtistDto.LastName
+- uid: BookPubDB.DTOs.ArtistDto.LastName*
+  name: LastName
+  href: api/BookPubDB.DTOs.ArtistDto.html#BookPubDB_DTOs_ArtistDto_LastName_
+  commentId: Overload:BookPubDB.DTOs.ArtistDto.LastName
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.ArtistDto.LastName
+  nameWithType: ArtistDto.LastName
+- uid: BookPubDB.DTOs.AuthorDto
+  name: AuthorDto
+  href: api/BookPubDB.DTOs.AuthorDto.html
+  commentId: T:BookPubDB.DTOs.AuthorDto
+  fullName: BookPubDB.DTOs.AuthorDto
+  nameWithType: AuthorDto
+- uid: BookPubDB.DTOs.AuthorDto.FirstName
+  name: FirstName
+  href: api/BookPubDB.DTOs.AuthorDto.html#BookPubDB_DTOs_AuthorDto_FirstName
+  commentId: P:BookPubDB.DTOs.AuthorDto.FirstName
+  fullName: BookPubDB.DTOs.AuthorDto.FirstName
+  nameWithType: AuthorDto.FirstName
+- uid: BookPubDB.DTOs.AuthorDto.FirstName*
+  name: FirstName
+  href: api/BookPubDB.DTOs.AuthorDto.html#BookPubDB_DTOs_AuthorDto_FirstName_
+  commentId: Overload:BookPubDB.DTOs.AuthorDto.FirstName
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.AuthorDto.FirstName
+  nameWithType: AuthorDto.FirstName
+- uid: BookPubDB.DTOs.AuthorDto.LastName
+  name: LastName
+  href: api/BookPubDB.DTOs.AuthorDto.html#BookPubDB_DTOs_AuthorDto_LastName
+  commentId: P:BookPubDB.DTOs.AuthorDto.LastName
+  fullName: BookPubDB.DTOs.AuthorDto.LastName
+  nameWithType: AuthorDto.LastName
+- uid: BookPubDB.DTOs.AuthorDto.LastName*
+  name: LastName
+  href: api/BookPubDB.DTOs.AuthorDto.html#BookPubDB_DTOs_AuthorDto_LastName_
+  commentId: Overload:BookPubDB.DTOs.AuthorDto.LastName
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.AuthorDto.LastName
+  nameWithType: AuthorDto.LastName
+- uid: BookPubDB.DTOs.BookDto
+  name: BookDto
+  href: api/BookPubDB.DTOs.BookDto.html
+  commentId: T:BookPubDB.DTOs.BookDto
+  fullName: BookPubDB.DTOs.BookDto
+  nameWithType: BookDto
+- uid: BookPubDB.DTOs.BookDto.AuthorId
+  name: AuthorId
+  href: api/BookPubDB.DTOs.BookDto.html#BookPubDB_DTOs_BookDto_AuthorId
+  commentId: P:BookPubDB.DTOs.BookDto.AuthorId
+  fullName: BookPubDB.DTOs.BookDto.AuthorId
+  nameWithType: BookDto.AuthorId
+- uid: BookPubDB.DTOs.BookDto.AuthorId*
+  name: AuthorId
+  href: api/BookPubDB.DTOs.BookDto.html#BookPubDB_DTOs_BookDto_AuthorId_
+  commentId: Overload:BookPubDB.DTOs.BookDto.AuthorId
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.BookDto.AuthorId
+  nameWithType: BookDto.AuthorId
+- uid: BookPubDB.DTOs.BookDto.BasePrice
+  name: BasePrice
+  href: api/BookPubDB.DTOs.BookDto.html#BookPubDB_DTOs_BookDto_BasePrice
+  commentId: P:BookPubDB.DTOs.BookDto.BasePrice
+  fullName: BookPubDB.DTOs.BookDto.BasePrice
+  nameWithType: BookDto.BasePrice
+- uid: BookPubDB.DTOs.BookDto.BasePrice*
+  name: BasePrice
+  href: api/BookPubDB.DTOs.BookDto.html#BookPubDB_DTOs_BookDto_BasePrice_
+  commentId: Overload:BookPubDB.DTOs.BookDto.BasePrice
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.BookDto.BasePrice
+  nameWithType: BookDto.BasePrice
+- uid: BookPubDB.DTOs.BookDto.PublishDate
+  name: PublishDate
+  href: api/BookPubDB.DTOs.BookDto.html#BookPubDB_DTOs_BookDto_PublishDate
+  commentId: P:BookPubDB.DTOs.BookDto.PublishDate
+  fullName: BookPubDB.DTOs.BookDto.PublishDate
+  nameWithType: BookDto.PublishDate
+- uid: BookPubDB.DTOs.BookDto.PublishDate*
+  name: PublishDate
+  href: api/BookPubDB.DTOs.BookDto.html#BookPubDB_DTOs_BookDto_PublishDate_
+  commentId: Overload:BookPubDB.DTOs.BookDto.PublishDate
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.BookDto.PublishDate
+  nameWithType: BookDto.PublishDate
+- uid: BookPubDB.DTOs.BookDto.Title
+  name: Title
+  href: api/BookPubDB.DTOs.BookDto.html#BookPubDB_DTOs_BookDto_Title
+  commentId: P:BookPubDB.DTOs.BookDto.Title
+  fullName: BookPubDB.DTOs.BookDto.Title
+  nameWithType: BookDto.Title
+- uid: BookPubDB.DTOs.BookDto.Title*
+  name: Title
+  href: api/BookPubDB.DTOs.BookDto.html#BookPubDB_DTOs_BookDto_Title_
+  commentId: Overload:BookPubDB.DTOs.BookDto.Title
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.BookDto.Title
+  nameWithType: BookDto.Title
+- uid: BookPubDB.DTOs.CoverDto
+  name: CoverDto
+  href: api/BookPubDB.DTOs.CoverDto.html
+  commentId: T:BookPubDB.DTOs.CoverDto
+  fullName: BookPubDB.DTOs.CoverDto
+  nameWithType: CoverDto
+- uid: BookPubDB.DTOs.CoverDto.Artists
+  name: Artists
+  href: api/BookPubDB.DTOs.CoverDto.html#BookPubDB_DTOs_CoverDto_Artists
+  commentId: P:BookPubDB.DTOs.CoverDto.Artists
+  fullName: BookPubDB.DTOs.CoverDto.Artists
+  nameWithType: CoverDto.Artists
+- uid: BookPubDB.DTOs.CoverDto.Artists*
+  name: Artists
+  href: api/BookPubDB.DTOs.CoverDto.html#BookPubDB_DTOs_CoverDto_Artists_
+  commentId: Overload:BookPubDB.DTOs.CoverDto.Artists
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.CoverDto.Artists
+  nameWithType: CoverDto.Artists
+- uid: BookPubDB.DTOs.CoverDto.BookId
+  name: BookId
+  href: api/BookPubDB.DTOs.CoverDto.html#BookPubDB_DTOs_CoverDto_BookId
+  commentId: P:BookPubDB.DTOs.CoverDto.BookId
+  fullName: BookPubDB.DTOs.CoverDto.BookId
+  nameWithType: CoverDto.BookId
+- uid: BookPubDB.DTOs.CoverDto.BookId*
+  name: BookId
+  href: api/BookPubDB.DTOs.CoverDto.html#BookPubDB_DTOs_CoverDto_BookId_
+  commentId: Overload:BookPubDB.DTOs.CoverDto.BookId
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.CoverDto.BookId
+  nameWithType: CoverDto.BookId
+- uid: BookPubDB.DTOs.CoverDto.DesignIdeas
+  name: DesignIdeas
+  href: api/BookPubDB.DTOs.CoverDto.html#BookPubDB_DTOs_CoverDto_DesignIdeas
+  commentId: P:BookPubDB.DTOs.CoverDto.DesignIdeas
+  fullName: BookPubDB.DTOs.CoverDto.DesignIdeas
+  nameWithType: CoverDto.DesignIdeas
+- uid: BookPubDB.DTOs.CoverDto.DesignIdeas*
+  name: DesignIdeas
+  href: api/BookPubDB.DTOs.CoverDto.html#BookPubDB_DTOs_CoverDto_DesignIdeas_
+  commentId: Overload:BookPubDB.DTOs.CoverDto.DesignIdeas
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.CoverDto.DesignIdeas
+  nameWithType: CoverDto.DesignIdeas
+- uid: BookPubDB.DTOs.CoverDto.DigitalOnly
+  name: DigitalOnly
+  href: api/BookPubDB.DTOs.CoverDto.html#BookPubDB_DTOs_CoverDto_DigitalOnly
+  commentId: P:BookPubDB.DTOs.CoverDto.DigitalOnly
+  fullName: BookPubDB.DTOs.CoverDto.DigitalOnly
+  nameWithType: CoverDto.DigitalOnly
+- uid: BookPubDB.DTOs.CoverDto.DigitalOnly*
+  name: DigitalOnly
+  href: api/BookPubDB.DTOs.CoverDto.html#BookPubDB_DTOs_CoverDto_DigitalOnly_
+  commentId: Overload:BookPubDB.DTOs.CoverDto.DigitalOnly
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.CoverDto.DigitalOnly
+  nameWithType: CoverDto.DigitalOnly
+- uid: BookPubDB.DTOs.EntityMapper
+  name: EntityMapper
+  href: api/BookPubDB.DTOs.EntityMapper.html
+  commentId: T:BookPubDB.DTOs.EntityMapper
+  fullName: BookPubDB.DTOs.EntityMapper
+  nameWithType: EntityMapper
+- uid: BookPubDB.DTOs.EntityMapper.MapDto*
+  name: MapDto
+  href: api/BookPubDB.DTOs.EntityMapper.html#BookPubDB_DTOs_EntityMapper_MapDto_
+  commentId: Overload:BookPubDB.DTOs.EntityMapper.MapDto
+  isSpec: "True"
+  fullName: BookPubDB.DTOs.EntityMapper.MapDto
+  nameWithType: EntityMapper.MapDto
+- uid: BookPubDB.DTOs.EntityMapper.MapDto``2(``1,``0)
+  name: MapDto<TDto, TEntity>(TEntity, TDto)
+  href: api/BookPubDB.DTOs.EntityMapper.html#BookPubDB_DTOs_EntityMapper_MapDto__2___1___0_
+  commentId: M:BookPubDB.DTOs.EntityMapper.MapDto``2(``1,``0)
+  name.vb: MapDto(Of TDto, TEntity)(TEntity, TDto)
+  fullName: BookPubDB.DTOs.EntityMapper.MapDto<TDto, TEntity>(TEntity, TDto)
+  fullName.vb: BookPubDB.DTOs.EntityMapper.MapDto(Of TDto, TEntity)(TEntity, TDto)
+  nameWithType: EntityMapper.MapDto<TDto, TEntity>(TEntity, TDto)
+  nameWithType.vb: EntityMapper.MapDto(Of TDto, TEntity)(TEntity, TDto)
+- uid: BookPubDB.Model
+  name: BookPubDB.Model
+  href: api/BookPubDB.Model.html
+  commentId: N:BookPubDB.Model
+  fullName: BookPubDB.Model
+  nameWithType: BookPubDB.Model
+- uid: BookPubDB.Model.Artist
+  name: Artist
+  href: api/BookPubDB.Model.Artist.html
+  commentId: T:BookPubDB.Model.Artist
+  fullName: BookPubDB.Model.Artist
+  nameWithType: Artist
+- uid: BookPubDB.Model.Artist.Covers
+  name: Covers
+  href: api/BookPubDB.Model.Artist.html#BookPubDB_Model_Artist_Covers
+  commentId: P:BookPubDB.Model.Artist.Covers
+  fullName: BookPubDB.Model.Artist.Covers
+  nameWithType: Artist.Covers
+- uid: BookPubDB.Model.Artist.Covers*
+  name: Covers
+  href: api/BookPubDB.Model.Artist.html#BookPubDB_Model_Artist_Covers_
+  commentId: Overload:BookPubDB.Model.Artist.Covers
+  isSpec: "True"
+  fullName: BookPubDB.Model.Artist.Covers
+  nameWithType: Artist.Covers
+- uid: BookPubDB.Model.Artist.FirstName
+  name: FirstName
+  href: api/BookPubDB.Model.Artist.html#BookPubDB_Model_Artist_FirstName
+  commentId: P:BookPubDB.Model.Artist.FirstName
+  fullName: BookPubDB.Model.Artist.FirstName
+  nameWithType: Artist.FirstName
+- uid: BookPubDB.Model.Artist.FirstName*
+  name: FirstName
+  href: api/BookPubDB.Model.Artist.html#BookPubDB_Model_Artist_FirstName_
+  commentId: Overload:BookPubDB.Model.Artist.FirstName
+  isSpec: "True"
+  fullName: BookPubDB.Model.Artist.FirstName
+  nameWithType: Artist.FirstName
+- uid: BookPubDB.Model.Artist.Id
+  name: Id
+  href: api/BookPubDB.Model.Artist.html#BookPubDB_Model_Artist_Id
+  commentId: P:BookPubDB.Model.Artist.Id
+  fullName: BookPubDB.Model.Artist.Id
+  nameWithType: Artist.Id
+- uid: BookPubDB.Model.Artist.Id*
+  name: Id
+  href: api/BookPubDB.Model.Artist.html#BookPubDB_Model_Artist_Id_
+  commentId: Overload:BookPubDB.Model.Artist.Id
+  isSpec: "True"
+  fullName: BookPubDB.Model.Artist.Id
+  nameWithType: Artist.Id
+- uid: BookPubDB.Model.Artist.LastName
+  name: LastName
+  href: api/BookPubDB.Model.Artist.html#BookPubDB_Model_Artist_LastName
+  commentId: P:BookPubDB.Model.Artist.LastName
+  fullName: BookPubDB.Model.Artist.LastName
+  nameWithType: Artist.LastName
+- uid: BookPubDB.Model.Artist.LastName*
+  name: LastName
+  href: api/BookPubDB.Model.Artist.html#BookPubDB_Model_Artist_LastName_
+  commentId: Overload:BookPubDB.Model.Artist.LastName
+  isSpec: "True"
+  fullName: BookPubDB.Model.Artist.LastName
+  nameWithType: Artist.LastName
+- uid: BookPubDB.Model.Author
+  name: Author
+  href: api/BookPubDB.Model.Author.html
+  commentId: T:BookPubDB.Model.Author
+  fullName: BookPubDB.Model.Author
+  nameWithType: Author
+- uid: BookPubDB.Model.Author.Books
+  name: Books
+  href: api/BookPubDB.Model.Author.html#BookPubDB_Model_Author_Books
+  commentId: P:BookPubDB.Model.Author.Books
+  fullName: BookPubDB.Model.Author.Books
+  nameWithType: Author.Books
+- uid: BookPubDB.Model.Author.Books*
+  name: Books
+  href: api/BookPubDB.Model.Author.html#BookPubDB_Model_Author_Books_
+  commentId: Overload:BookPubDB.Model.Author.Books
+  isSpec: "True"
+  fullName: BookPubDB.Model.Author.Books
+  nameWithType: Author.Books
+- uid: BookPubDB.Model.Author.FirstName
+  name: FirstName
+  href: api/BookPubDB.Model.Author.html#BookPubDB_Model_Author_FirstName
+  commentId: P:BookPubDB.Model.Author.FirstName
+  fullName: BookPubDB.Model.Author.FirstName
+  nameWithType: Author.FirstName
+- uid: BookPubDB.Model.Author.FirstName*
+  name: FirstName
+  href: api/BookPubDB.Model.Author.html#BookPubDB_Model_Author_FirstName_
+  commentId: Overload:BookPubDB.Model.Author.FirstName
+  isSpec: "True"
+  fullName: BookPubDB.Model.Author.FirstName
+  nameWithType: Author.FirstName
+- uid: BookPubDB.Model.Author.Id
+  name: Id
+  href: api/BookPubDB.Model.Author.html#BookPubDB_Model_Author_Id
+  commentId: P:BookPubDB.Model.Author.Id
+  fullName: BookPubDB.Model.Author.Id
+  nameWithType: Author.Id
+- uid: BookPubDB.Model.Author.Id*
+  name: Id
+  href: api/BookPubDB.Model.Author.html#BookPubDB_Model_Author_Id_
+  commentId: Overload:BookPubDB.Model.Author.Id
+  isSpec: "True"
+  fullName: BookPubDB.Model.Author.Id
+  nameWithType: Author.Id
+- uid: BookPubDB.Model.Author.LastName
+  name: LastName
+  href: api/BookPubDB.Model.Author.html#BookPubDB_Model_Author_LastName
+  commentId: P:BookPubDB.Model.Author.LastName
+  fullName: BookPubDB.Model.Author.LastName
+  nameWithType: Author.LastName
+- uid: BookPubDB.Model.Author.LastName*
+  name: LastName
+  href: api/BookPubDB.Model.Author.html#BookPubDB_Model_Author_LastName_
+  commentId: Overload:BookPubDB.Model.Author.LastName
+  isSpec: "True"
+  fullName: BookPubDB.Model.Author.LastName
+  nameWithType: Author.LastName
+- uid: BookPubDB.Model.Book
+  name: Book
+  href: api/BookPubDB.Model.Book.html
+  commentId: T:BookPubDB.Model.Book
+  fullName: BookPubDB.Model.Book
+  nameWithType: Book
+- uid: BookPubDB.Model.Book.Author
+  name: Author
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_Author
+  commentId: P:BookPubDB.Model.Book.Author
+  fullName: BookPubDB.Model.Book.Author
+  nameWithType: Book.Author
+- uid: BookPubDB.Model.Book.Author*
+  name: Author
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_Author_
+  commentId: Overload:BookPubDB.Model.Book.Author
+  isSpec: "True"
+  fullName: BookPubDB.Model.Book.Author
+  nameWithType: Book.Author
+- uid: BookPubDB.Model.Book.AuthorId
+  name: AuthorId
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_AuthorId
+  commentId: P:BookPubDB.Model.Book.AuthorId
+  fullName: BookPubDB.Model.Book.AuthorId
+  nameWithType: Book.AuthorId
+- uid: BookPubDB.Model.Book.AuthorId*
+  name: AuthorId
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_AuthorId_
+  commentId: Overload:BookPubDB.Model.Book.AuthorId
+  isSpec: "True"
+  fullName: BookPubDB.Model.Book.AuthorId
+  nameWithType: Book.AuthorId
+- uid: BookPubDB.Model.Book.BasePrice
+  name: BasePrice
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_BasePrice
+  commentId: P:BookPubDB.Model.Book.BasePrice
+  fullName: BookPubDB.Model.Book.BasePrice
+  nameWithType: Book.BasePrice
+- uid: BookPubDB.Model.Book.BasePrice*
+  name: BasePrice
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_BasePrice_
+  commentId: Overload:BookPubDB.Model.Book.BasePrice
+  isSpec: "True"
+  fullName: BookPubDB.Model.Book.BasePrice
+  nameWithType: Book.BasePrice
+- uid: BookPubDB.Model.Book.Cover
+  name: Cover
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_Cover
+  commentId: P:BookPubDB.Model.Book.Cover
+  fullName: BookPubDB.Model.Book.Cover
+  nameWithType: Book.Cover
+- uid: BookPubDB.Model.Book.Cover*
+  name: Cover
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_Cover_
+  commentId: Overload:BookPubDB.Model.Book.Cover
+  isSpec: "True"
+  fullName: BookPubDB.Model.Book.Cover
+  nameWithType: Book.Cover
+- uid: BookPubDB.Model.Book.Id
+  name: Id
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_Id
+  commentId: P:BookPubDB.Model.Book.Id
+  fullName: BookPubDB.Model.Book.Id
+  nameWithType: Book.Id
+- uid: BookPubDB.Model.Book.Id*
+  name: Id
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_Id_
+  commentId: Overload:BookPubDB.Model.Book.Id
+  isSpec: "True"
+  fullName: BookPubDB.Model.Book.Id
+  nameWithType: Book.Id
+- uid: BookPubDB.Model.Book.PublishDate
+  name: PublishDate
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_PublishDate
+  commentId: P:BookPubDB.Model.Book.PublishDate
+  fullName: BookPubDB.Model.Book.PublishDate
+  nameWithType: Book.PublishDate
+- uid: BookPubDB.Model.Book.PublishDate*
+  name: PublishDate
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_PublishDate_
+  commentId: Overload:BookPubDB.Model.Book.PublishDate
+  isSpec: "True"
+  fullName: BookPubDB.Model.Book.PublishDate
+  nameWithType: Book.PublishDate
+- uid: BookPubDB.Model.Book.Title
+  name: Title
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_Title
+  commentId: P:BookPubDB.Model.Book.Title
+  fullName: BookPubDB.Model.Book.Title
+  nameWithType: Book.Title
+- uid: BookPubDB.Model.Book.Title*
+  name: Title
+  href: api/BookPubDB.Model.Book.html#BookPubDB_Model_Book_Title_
+  commentId: Overload:BookPubDB.Model.Book.Title
+  isSpec: "True"
+  fullName: BookPubDB.Model.Book.Title
+  nameWithType: Book.Title
+- uid: BookPubDB.Model.Cover
+  name: Cover
+  href: api/BookPubDB.Model.Cover.html
+  commentId: T:BookPubDB.Model.Cover
+  fullName: BookPubDB.Model.Cover
+  nameWithType: Cover
+- uid: BookPubDB.Model.Cover.Artists
+  name: Artists
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_Artists
+  commentId: P:BookPubDB.Model.Cover.Artists
+  fullName: BookPubDB.Model.Cover.Artists
+  nameWithType: Cover.Artists
+- uid: BookPubDB.Model.Cover.Artists*
+  name: Artists
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_Artists_
+  commentId: Overload:BookPubDB.Model.Cover.Artists
+  isSpec: "True"
+  fullName: BookPubDB.Model.Cover.Artists
+  nameWithType: Cover.Artists
+- uid: BookPubDB.Model.Cover.Book
+  name: Book
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_Book
+  commentId: P:BookPubDB.Model.Cover.Book
+  fullName: BookPubDB.Model.Cover.Book
+  nameWithType: Cover.Book
+- uid: BookPubDB.Model.Cover.Book*
+  name: Book
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_Book_
+  commentId: Overload:BookPubDB.Model.Cover.Book
+  isSpec: "True"
+  fullName: BookPubDB.Model.Cover.Book
+  nameWithType: Cover.Book
+- uid: BookPubDB.Model.Cover.BookId
+  name: BookId
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_BookId
+  commentId: P:BookPubDB.Model.Cover.BookId
+  fullName: BookPubDB.Model.Cover.BookId
+  nameWithType: Cover.BookId
+- uid: BookPubDB.Model.Cover.BookId*
+  name: BookId
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_BookId_
+  commentId: Overload:BookPubDB.Model.Cover.BookId
+  isSpec: "True"
+  fullName: BookPubDB.Model.Cover.BookId
+  nameWithType: Cover.BookId
+- uid: BookPubDB.Model.Cover.DesignIdeas
+  name: DesignIdeas
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_DesignIdeas
+  commentId: P:BookPubDB.Model.Cover.DesignIdeas
+  fullName: BookPubDB.Model.Cover.DesignIdeas
+  nameWithType: Cover.DesignIdeas
+- uid: BookPubDB.Model.Cover.DesignIdeas*
+  name: DesignIdeas
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_DesignIdeas_
+  commentId: Overload:BookPubDB.Model.Cover.DesignIdeas
+  isSpec: "True"
+  fullName: BookPubDB.Model.Cover.DesignIdeas
+  nameWithType: Cover.DesignIdeas
+- uid: BookPubDB.Model.Cover.DigitalOnly
+  name: DigitalOnly
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_DigitalOnly
+  commentId: P:BookPubDB.Model.Cover.DigitalOnly
+  fullName: BookPubDB.Model.Cover.DigitalOnly
+  nameWithType: Cover.DigitalOnly
+- uid: BookPubDB.Model.Cover.DigitalOnly*
+  name: DigitalOnly
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_DigitalOnly_
+  commentId: Overload:BookPubDB.Model.Cover.DigitalOnly
+  isSpec: "True"
+  fullName: BookPubDB.Model.Cover.DigitalOnly
+  nameWithType: Cover.DigitalOnly
+- uid: BookPubDB.Model.Cover.Id
+  name: Id
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_Id
+  commentId: P:BookPubDB.Model.Cover.Id
+  fullName: BookPubDB.Model.Cover.Id
+  nameWithType: Cover.Id
+- uid: BookPubDB.Model.Cover.Id*
+  name: Id
+  href: api/BookPubDB.Model.Cover.html#BookPubDB_Model_Cover_Id_
+  commentId: Overload:BookPubDB.Model.Cover.Id
+  isSpec: "True"
+  fullName: BookPubDB.Model.Cover.Id
+  nameWithType: Cover.Id
+- uid: BookPubDB.Model.Enums
+  name: BookPubDB.Model.Enums
+  href: api/BookPubDB.Model.Enums.html
+  commentId: N:BookPubDB.Model.Enums
+  fullName: BookPubDB.Model.Enums
+  nameWithType: BookPubDB.Model.Enums
+- uid: BookPubDB.Model.Enums.ActionResultStatus
+  name: ActionResultStatus
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html
+  commentId: T:BookPubDB.Model.Enums.ActionResultStatus
+  fullName: BookPubDB.Model.Enums.ActionResultStatus
+  nameWithType: ActionResultStatus
+- uid: BookPubDB.Model.Enums.ActionResultStatus.Accepted
+  name: Accepted
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_Accepted
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.Accepted
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.Accepted
+  nameWithType: ActionResultStatus.Accepted
+- uid: BookPubDB.Model.Enums.ActionResultStatus.BadGateway
+  name: BadGateway
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_BadGateway
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.BadGateway
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.BadGateway
+  nameWithType: ActionResultStatus.BadGateway
+- uid: BookPubDB.Model.Enums.ActionResultStatus.BadRequest
+  name: BadRequest
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_BadRequest
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.BadRequest
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.BadRequest
+  nameWithType: ActionResultStatus.BadRequest
+- uid: BookPubDB.Model.Enums.ActionResultStatus.Conflict
+  name: Conflict
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_Conflict
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.Conflict
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.Conflict
+  nameWithType: ActionResultStatus.Conflict
+- uid: BookPubDB.Model.Enums.ActionResultStatus.Created
+  name: Created
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_Created
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.Created
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.Created
+  nameWithType: ActionResultStatus.Created
+- uid: BookPubDB.Model.Enums.ActionResultStatus.Deleted
+  name: Deleted
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_Deleted
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.Deleted
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.Deleted
+  nameWithType: ActionResultStatus.Deleted
+- uid: BookPubDB.Model.Enums.ActionResultStatus.Forbidden
+  name: Forbidden
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_Forbidden
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.Forbidden
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.Forbidden
+  nameWithType: ActionResultStatus.Forbidden
+- uid: BookPubDB.Model.Enums.ActionResultStatus.InternalServerError
+  name: InternalServerError
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_InternalServerError
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.InternalServerError
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.InternalServerError
+  nameWithType: ActionResultStatus.InternalServerError
+- uid: BookPubDB.Model.Enums.ActionResultStatus.NoContent
+  name: NoContent
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_NoContent
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.NoContent
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.NoContent
+  nameWithType: ActionResultStatus.NoContent
+- uid: BookPubDB.Model.Enums.ActionResultStatus.NotFound
+  name: NotFound
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_NotFound
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.NotFound
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.NotFound
+  nameWithType: ActionResultStatus.NotFound
+- uid: BookPubDB.Model.Enums.ActionResultStatus.NotImplemented
+  name: NotImplemented
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_NotImplemented
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.NotImplemented
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.NotImplemented
+  nameWithType: ActionResultStatus.NotImplemented
+- uid: BookPubDB.Model.Enums.ActionResultStatus.Ok
+  name: Ok
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_Ok
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.Ok
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.Ok
+  nameWithType: ActionResultStatus.Ok
+- uid: BookPubDB.Model.Enums.ActionResultStatus.ServiceUnavailable
+  name: ServiceUnavailable
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_ServiceUnavailable
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.ServiceUnavailable
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.ServiceUnavailable
+  nameWithType: ActionResultStatus.ServiceUnavailable
+- uid: BookPubDB.Model.Enums.ActionResultStatus.Unauthorized
+  name: Unauthorized
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_Unauthorized
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.Unauthorized
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.Unauthorized
+  nameWithType: ActionResultStatus.Unauthorized
+- uid: BookPubDB.Model.Enums.ActionResultStatus.UnprocessableEntity
+  name: UnprocessableEntity
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_UnprocessableEntity
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.UnprocessableEntity
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.UnprocessableEntity
+  nameWithType: ActionResultStatus.UnprocessableEntity
+- uid: BookPubDB.Model.Enums.ActionResultStatus.Updated
+  name: Updated
+  href: api/BookPubDB.Model.Enums.ActionResultStatus.html#BookPubDB_Model_Enums_ActionResultStatus_Updated
+  commentId: F:BookPubDB.Model.Enums.ActionResultStatus.Updated
+  fullName: BookPubDB.Model.Enums.ActionResultStatus.Updated
+  nameWithType: ActionResultStatus.Updated
+- uid: BookPubDB.Model.Identity
+  name: BookPubDB.Model.Identity
+  href: api/BookPubDB.Model.Identity.html
+  commentId: N:BookPubDB.Model.Identity
+  fullName: BookPubDB.Model.Identity
+  nameWithType: BookPubDB.Model.Identity
+- uid: BookPubDB.Model.Identity.LoginUser
+  name: LoginUser
+  href: api/BookPubDB.Model.Identity.LoginUser.html
+  commentId: T:BookPubDB.Model.Identity.LoginUser
+  fullName: BookPubDB.Model.Identity.LoginUser
+  nameWithType: LoginUser
+- uid: BookPubDB.Model.Identity.LoginUser.Id
+  name: Id
+  href: api/BookPubDB.Model.Identity.LoginUser.html#BookPubDB_Model_Identity_LoginUser_Id
+  commentId: P:BookPubDB.Model.Identity.LoginUser.Id
+  fullName: BookPubDB.Model.Identity.LoginUser.Id
+  nameWithType: LoginUser.Id
+- uid: BookPubDB.Model.Identity.LoginUser.Id*
+  name: Id
+  href: api/BookPubDB.Model.Identity.LoginUser.html#BookPubDB_Model_Identity_LoginUser_Id_
+  commentId: Overload:BookPubDB.Model.Identity.LoginUser.Id
+  isSpec: "True"
+  fullName: BookPubDB.Model.Identity.LoginUser.Id
+  nameWithType: LoginUser.Id
+- uid: BookPubDB.Model.Identity.LoginUser.Login
+  name: Login
+  href: api/BookPubDB.Model.Identity.LoginUser.html#BookPubDB_Model_Identity_LoginUser_Login
+  commentId: P:BookPubDB.Model.Identity.LoginUser.Login
+  fullName: BookPubDB.Model.Identity.LoginUser.Login
+  nameWithType: LoginUser.Login
+- uid: BookPubDB.Model.Identity.LoginUser.Login*
+  name: Login
+  href: api/BookPubDB.Model.Identity.LoginUser.html#BookPubDB_Model_Identity_LoginUser_Login_
+  commentId: Overload:BookPubDB.Model.Identity.LoginUser.Login
+  isSpec: "True"
+  fullName: BookPubDB.Model.Identity.LoginUser.Login
+  nameWithType: LoginUser.Login
+- uid: BookPubDB.Model.Identity.LoginUser.Password
+  name: Password
+  href: api/BookPubDB.Model.Identity.LoginUser.html#BookPubDB_Model_Identity_LoginUser_Password
+  commentId: P:BookPubDB.Model.Identity.LoginUser.Password
+  fullName: BookPubDB.Model.Identity.LoginUser.Password
+  nameWithType: LoginUser.Password
+- uid: BookPubDB.Model.Identity.LoginUser.Password*
+  name: Password
+  href: api/BookPubDB.Model.Identity.LoginUser.html#BookPubDB_Model_Identity_LoginUser_Password_
+  commentId: Overload:BookPubDB.Model.Identity.LoginUser.Password
+  isSpec: "True"
+  fullName: BookPubDB.Model.Identity.LoginUser.Password
+  nameWithType: LoginUser.Password
+- uid: BookPubDB.Model.Identity.User
+  name: User
+  href: api/BookPubDB.Model.Identity.User.html
+  commentId: T:BookPubDB.Model.Identity.User
+  fullName: BookPubDB.Model.Identity.User
+  nameWithType: User
+- uid: BookPubDB.Model.Identity.User.Email
+  name: Email
+  href: api/BookPubDB.Model.Identity.User.html#BookPubDB_Model_Identity_User_Email
+  commentId: P:BookPubDB.Model.Identity.User.Email
+  fullName: BookPubDB.Model.Identity.User.Email
+  nameWithType: User.Email
+- uid: BookPubDB.Model.Identity.User.Email*
+  name: Email
+  href: api/BookPubDB.Model.Identity.User.html#BookPubDB_Model_Identity_User_Email_
+  commentId: Overload:BookPubDB.Model.Identity.User.Email
+  isSpec: "True"
+  fullName: BookPubDB.Model.Identity.User.Email
+  nameWithType: User.Email
+- uid: BookPubDB.Model.Identity.User.Id
+  name: Id
+  href: api/BookPubDB.Model.Identity.User.html#BookPubDB_Model_Identity_User_Id
+  commentId: P:BookPubDB.Model.Identity.User.Id
+  fullName: BookPubDB.Model.Identity.User.Id
+  nameWithType: User.Id
+- uid: BookPubDB.Model.Identity.User.Id*
+  name: Id
+  href: api/BookPubDB.Model.Identity.User.html#BookPubDB_Model_Identity_User_Id_
+  commentId: Overload:BookPubDB.Model.Identity.User.Id
+  isSpec: "True"
+  fullName: BookPubDB.Model.Identity.User.Id
+  nameWithType: User.Id
+- uid: BookPubDB.Model.Identity.User.Password
+  name: Password
+  href: api/BookPubDB.Model.Identity.User.html#BookPubDB_Model_Identity_User_Password
+  commentId: P:BookPubDB.Model.Identity.User.Password
+  fullName: BookPubDB.Model.Identity.User.Password
+  nameWithType: User.Password
+- uid: BookPubDB.Model.Identity.User.Password*
+  name: Password
+  href: api/BookPubDB.Model.Identity.User.html#BookPubDB_Model_Identity_User_Password_
+  commentId: Overload:BookPubDB.Model.Identity.User.Password
+  isSpec: "True"
+  fullName: BookPubDB.Model.Identity.User.Password
+  nameWithType: User.Password
+- uid: BookPubDB.Model.Identity.User.Username
+  name: Username
+  href: api/BookPubDB.Model.Identity.User.html#BookPubDB_Model_Identity_User_Username
+  commentId: P:BookPubDB.Model.Identity.User.Username
+  fullName: BookPubDB.Model.Identity.User.Username
+  nameWithType: User.Username
+- uid: BookPubDB.Model.Identity.User.Username*
+  name: Username
+  href: api/BookPubDB.Model.Identity.User.html#BookPubDB_Model_Identity_User_Username_
+  commentId: Overload:BookPubDB.Model.Identity.User.Username
+  isSpec: "True"
+  fullName: BookPubDB.Model.Identity.User.Username
+  nameWithType: User.Username
+- uid: BookPubDB.Model.IItem
+  name: IItem
+  href: api/BookPubDB.Model.IItem.html
+  commentId: T:BookPubDB.Model.IItem
+  fullName: BookPubDB.Model.IItem
+  nameWithType: IItem
+- uid: BookPubDB.Model.IItem.Id
+  name: Id
+  href: api/BookPubDB.Model.IItem.html#BookPubDB_Model_IItem_Id
+  commentId: P:BookPubDB.Model.IItem.Id
+  fullName: BookPubDB.Model.IItem.Id
+  nameWithType: IItem.Id
+- uid: BookPubDB.Model.IItem.Id*
+  name: Id
+  href: api/BookPubDB.Model.IItem.html#BookPubDB_Model_IItem_Id_
+  commentId: Overload:BookPubDB.Model.IItem.Id
+  isSpec: "True"
+  fullName: BookPubDB.Model.IItem.Id
+  nameWithType: IItem.Id
+- uid: BookPubDB.Repositories
+  name: BookPubDB.Repositories
+  href: api/BookPubDB.Repositories.html
+  commentId: N:BookPubDB.Repositories
+  fullName: BookPubDB.Repositories
+  nameWithType: BookPubDB.Repositories
+- uid: BookPubDB.Repositories.ArtistRepository
+  name: ArtistRepository
+  href: api/BookPubDB.Repositories.ArtistRepository.html
+  commentId: T:BookPubDB.Repositories.ArtistRepository
+  fullName: BookPubDB.Repositories.ArtistRepository
+  nameWithType: ArtistRepository
+- uid: BookPubDB.Repositories.ArtistRepository.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  name: CreateAsync(PublisherContext, Object)
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_CreateAsync_BookPubDB_Data_PublisherContext_System_Object_
+  commentId: M:BookPubDB.Repositories.ArtistRepository.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  fullName: BookPubDB.Repositories.ArtistRepository.CreateAsync(BookPubDB.Data.PublisherContext, System.Object)
+  nameWithType: ArtistRepository.CreateAsync(PublisherContext, Object)
+- uid: BookPubDB.Repositories.ArtistRepository.CreateAsync*
+  name: CreateAsync
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_CreateAsync_
+  commentId: Overload:BookPubDB.Repositories.ArtistRepository.CreateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.ArtistRepository.CreateAsync
+  nameWithType: ArtistRepository.CreateAsync
+- uid: BookPubDB.Repositories.ArtistRepository.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name: DeleteAsync(PublisherContext, Nullable<Int32>)
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_DeleteAsync_BookPubDB_Data_PublisherContext_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.ArtistRepository.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name.vb: DeleteAsync(PublisherContext, Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.ArtistRepository.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.ArtistRepository.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable(Of System.Int32))
+  nameWithType: ArtistRepository.DeleteAsync(PublisherContext, Nullable<Int32>)
+  nameWithType.vb: ArtistRepository.DeleteAsync(PublisherContext, Nullable(Of Int32))
+- uid: BookPubDB.Repositories.ArtistRepository.DeleteAsync*
+  name: DeleteAsync
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_DeleteAsync_
+  commentId: Overload:BookPubDB.Repositories.ArtistRepository.DeleteAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.ArtistRepository.DeleteAsync
+  nameWithType: ArtistRepository.DeleteAsync
+- uid: BookPubDB.Repositories.ArtistRepository.Exists(System.Nullable{System.Int32})
+  name: Exists(Nullable<Int32>)
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_Exists_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.ArtistRepository.Exists(System.Nullable{System.Int32})
+  name.vb: Exists(Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.ArtistRepository.Exists(System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.ArtistRepository.Exists(System.Nullable(Of System.Int32))
+  nameWithType: ArtistRepository.Exists(Nullable<Int32>)
+  nameWithType.vb: ArtistRepository.Exists(Nullable(Of Int32))
+- uid: BookPubDB.Repositories.ArtistRepository.Exists*
+  name: Exists
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_Exists_
+  commentId: Overload:BookPubDB.Repositories.ArtistRepository.Exists
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.ArtistRepository.Exists
+  nameWithType: ArtistRepository.Exists
+- uid: BookPubDB.Repositories.ArtistRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  name: GetAllAsync(PublisherContext)
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_GetAllAsync_BookPubDB_Data_PublisherContext_
+  commentId: M:BookPubDB.Repositories.ArtistRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  fullName: BookPubDB.Repositories.ArtistRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  nameWithType: ArtistRepository.GetAllAsync(PublisherContext)
+- uid: BookPubDB.Repositories.ArtistRepository.GetAllAsync*
+  name: GetAllAsync
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_GetAllAsync_
+  commentId: Overload:BookPubDB.Repositories.ArtistRepository.GetAllAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.ArtistRepository.GetAllAsync
+  nameWithType: ArtistRepository.GetAllAsync
+- uid: BookPubDB.Repositories.ArtistRepository.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  name: GetByIdAsync(PublisherContext, Int32)
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_GetByIdAsync_BookPubDB_Data_PublisherContext_System_Int32_
+  commentId: M:BookPubDB.Repositories.ArtistRepository.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  fullName: BookPubDB.Repositories.ArtistRepository.GetByIdAsync(BookPubDB.Data.PublisherContext, System.Int32)
+  nameWithType: ArtistRepository.GetByIdAsync(PublisherContext, Int32)
+- uid: BookPubDB.Repositories.ArtistRepository.GetByIdAsync*
+  name: GetByIdAsync
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_GetByIdAsync_
+  commentId: Overload:BookPubDB.Repositories.ArtistRepository.GetByIdAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.ArtistRepository.GetByIdAsync
+  nameWithType: ArtistRepository.GetByIdAsync
+- uid: BookPubDB.Repositories.ArtistRepository.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  name: UpdateAsync(PublisherContext, Int32, Object)
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_UpdateAsync_BookPubDB_Data_PublisherContext_System_Int32_System_Object_
+  commentId: M:BookPubDB.Repositories.ArtistRepository.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  fullName: BookPubDB.Repositories.ArtistRepository.UpdateAsync(BookPubDB.Data.PublisherContext, System.Int32, System.Object)
+  nameWithType: ArtistRepository.UpdateAsync(PublisherContext, Int32, Object)
+- uid: BookPubDB.Repositories.ArtistRepository.UpdateAsync*
+  name: UpdateAsync
+  href: api/BookPubDB.Repositories.ArtistRepository.html#BookPubDB_Repositories_ArtistRepository_UpdateAsync_
+  commentId: Overload:BookPubDB.Repositories.ArtistRepository.UpdateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.ArtistRepository.UpdateAsync
+  nameWithType: ArtistRepository.UpdateAsync
+- uid: BookPubDB.Repositories.AuthorRepository
+  name: AuthorRepository
+  href: api/BookPubDB.Repositories.AuthorRepository.html
+  commentId: T:BookPubDB.Repositories.AuthorRepository
+  fullName: BookPubDB.Repositories.AuthorRepository
+  nameWithType: AuthorRepository
+- uid: BookPubDB.Repositories.AuthorRepository.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  name: CreateAsync(PublisherContext, Object)
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_CreateAsync_BookPubDB_Data_PublisherContext_System_Object_
+  commentId: M:BookPubDB.Repositories.AuthorRepository.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  fullName: BookPubDB.Repositories.AuthorRepository.CreateAsync(BookPubDB.Data.PublisherContext, System.Object)
+  nameWithType: AuthorRepository.CreateAsync(PublisherContext, Object)
+- uid: BookPubDB.Repositories.AuthorRepository.CreateAsync*
+  name: CreateAsync
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_CreateAsync_
+  commentId: Overload:BookPubDB.Repositories.AuthorRepository.CreateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.AuthorRepository.CreateAsync
+  nameWithType: AuthorRepository.CreateAsync
+- uid: BookPubDB.Repositories.AuthorRepository.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name: DeleteAsync(PublisherContext, Nullable<Int32>)
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_DeleteAsync_BookPubDB_Data_PublisherContext_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.AuthorRepository.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name.vb: DeleteAsync(PublisherContext, Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.AuthorRepository.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.AuthorRepository.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable(Of System.Int32))
+  nameWithType: AuthorRepository.DeleteAsync(PublisherContext, Nullable<Int32>)
+  nameWithType.vb: AuthorRepository.DeleteAsync(PublisherContext, Nullable(Of Int32))
+- uid: BookPubDB.Repositories.AuthorRepository.DeleteAsync*
+  name: DeleteAsync
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_DeleteAsync_
+  commentId: Overload:BookPubDB.Repositories.AuthorRepository.DeleteAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.AuthorRepository.DeleteAsync
+  nameWithType: AuthorRepository.DeleteAsync
+- uid: BookPubDB.Repositories.AuthorRepository.Exists(System.Nullable{System.Int32})
+  name: Exists(Nullable<Int32>)
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_Exists_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.AuthorRepository.Exists(System.Nullable{System.Int32})
+  name.vb: Exists(Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.AuthorRepository.Exists(System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.AuthorRepository.Exists(System.Nullable(Of System.Int32))
+  nameWithType: AuthorRepository.Exists(Nullable<Int32>)
+  nameWithType.vb: AuthorRepository.Exists(Nullable(Of Int32))
+- uid: BookPubDB.Repositories.AuthorRepository.Exists*
+  name: Exists
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_Exists_
+  commentId: Overload:BookPubDB.Repositories.AuthorRepository.Exists
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.AuthorRepository.Exists
+  nameWithType: AuthorRepository.Exists
+- uid: BookPubDB.Repositories.AuthorRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  name: GetAllAsync(PublisherContext)
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_GetAllAsync_BookPubDB_Data_PublisherContext_
+  commentId: M:BookPubDB.Repositories.AuthorRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  fullName: BookPubDB.Repositories.AuthorRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  nameWithType: AuthorRepository.GetAllAsync(PublisherContext)
+- uid: BookPubDB.Repositories.AuthorRepository.GetAllAsync*
+  name: GetAllAsync
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_GetAllAsync_
+  commentId: Overload:BookPubDB.Repositories.AuthorRepository.GetAllAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.AuthorRepository.GetAllAsync
+  nameWithType: AuthorRepository.GetAllAsync
+- uid: BookPubDB.Repositories.AuthorRepository.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  name: GetByIdAsync(PublisherContext, Int32)
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_GetByIdAsync_BookPubDB_Data_PublisherContext_System_Int32_
+  commentId: M:BookPubDB.Repositories.AuthorRepository.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  fullName: BookPubDB.Repositories.AuthorRepository.GetByIdAsync(BookPubDB.Data.PublisherContext, System.Int32)
+  nameWithType: AuthorRepository.GetByIdAsync(PublisherContext, Int32)
+- uid: BookPubDB.Repositories.AuthorRepository.GetByIdAsync*
+  name: GetByIdAsync
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_GetByIdAsync_
+  commentId: Overload:BookPubDB.Repositories.AuthorRepository.GetByIdAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.AuthorRepository.GetByIdAsync
+  nameWithType: AuthorRepository.GetByIdAsync
+- uid: BookPubDB.Repositories.AuthorRepository.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  name: UpdateAsync(PublisherContext, Int32, Object)
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_UpdateAsync_BookPubDB_Data_PublisherContext_System_Int32_System_Object_
+  commentId: M:BookPubDB.Repositories.AuthorRepository.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  fullName: BookPubDB.Repositories.AuthorRepository.UpdateAsync(BookPubDB.Data.PublisherContext, System.Int32, System.Object)
+  nameWithType: AuthorRepository.UpdateAsync(PublisherContext, Int32, Object)
+- uid: BookPubDB.Repositories.AuthorRepository.UpdateAsync*
+  name: UpdateAsync
+  href: api/BookPubDB.Repositories.AuthorRepository.html#BookPubDB_Repositories_AuthorRepository_UpdateAsync_
+  commentId: Overload:BookPubDB.Repositories.AuthorRepository.UpdateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.AuthorRepository.UpdateAsync
+  nameWithType: AuthorRepository.UpdateAsync
+- uid: BookPubDB.Repositories.BookRepository
+  name: BookRepository
+  href: api/BookPubDB.Repositories.BookRepository.html
+  commentId: T:BookPubDB.Repositories.BookRepository
+  fullName: BookPubDB.Repositories.BookRepository
+  nameWithType: BookRepository
+- uid: BookPubDB.Repositories.BookRepository.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  name: CreateAsync(PublisherContext, Object)
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_CreateAsync_BookPubDB_Data_PublisherContext_System_Object_
+  commentId: M:BookPubDB.Repositories.BookRepository.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  fullName: BookPubDB.Repositories.BookRepository.CreateAsync(BookPubDB.Data.PublisherContext, System.Object)
+  nameWithType: BookRepository.CreateAsync(PublisherContext, Object)
+- uid: BookPubDB.Repositories.BookRepository.CreateAsync*
+  name: CreateAsync
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_CreateAsync_
+  commentId: Overload:BookPubDB.Repositories.BookRepository.CreateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.BookRepository.CreateAsync
+  nameWithType: BookRepository.CreateAsync
+- uid: BookPubDB.Repositories.BookRepository.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name: DeleteAsync(PublisherContext, Nullable<Int32>)
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_DeleteAsync_BookPubDB_Data_PublisherContext_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.BookRepository.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name.vb: DeleteAsync(PublisherContext, Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.BookRepository.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.BookRepository.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable(Of System.Int32))
+  nameWithType: BookRepository.DeleteAsync(PublisherContext, Nullable<Int32>)
+  nameWithType.vb: BookRepository.DeleteAsync(PublisherContext, Nullable(Of Int32))
+- uid: BookPubDB.Repositories.BookRepository.DeleteAsync*
+  name: DeleteAsync
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_DeleteAsync_
+  commentId: Overload:BookPubDB.Repositories.BookRepository.DeleteAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.BookRepository.DeleteAsync
+  nameWithType: BookRepository.DeleteAsync
+- uid: BookPubDB.Repositories.BookRepository.Exists(System.Nullable{System.Int32})
+  name: Exists(Nullable<Int32>)
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_Exists_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.BookRepository.Exists(System.Nullable{System.Int32})
+  name.vb: Exists(Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.BookRepository.Exists(System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.BookRepository.Exists(System.Nullable(Of System.Int32))
+  nameWithType: BookRepository.Exists(Nullable<Int32>)
+  nameWithType.vb: BookRepository.Exists(Nullable(Of Int32))
+- uid: BookPubDB.Repositories.BookRepository.Exists*
+  name: Exists
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_Exists_
+  commentId: Overload:BookPubDB.Repositories.BookRepository.Exists
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.BookRepository.Exists
+  nameWithType: BookRepository.Exists
+- uid: BookPubDB.Repositories.BookRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  name: GetAllAsync(PublisherContext)
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_GetAllAsync_BookPubDB_Data_PublisherContext_
+  commentId: M:BookPubDB.Repositories.BookRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  fullName: BookPubDB.Repositories.BookRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  nameWithType: BookRepository.GetAllAsync(PublisherContext)
+- uid: BookPubDB.Repositories.BookRepository.GetAllAsync*
+  name: GetAllAsync
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_GetAllAsync_
+  commentId: Overload:BookPubDB.Repositories.BookRepository.GetAllAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.BookRepository.GetAllAsync
+  nameWithType: BookRepository.GetAllAsync
+- uid: BookPubDB.Repositories.BookRepository.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  name: GetByIdAsync(PublisherContext, Int32)
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_GetByIdAsync_BookPubDB_Data_PublisherContext_System_Int32_
+  commentId: M:BookPubDB.Repositories.BookRepository.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  fullName: BookPubDB.Repositories.BookRepository.GetByIdAsync(BookPubDB.Data.PublisherContext, System.Int32)
+  nameWithType: BookRepository.GetByIdAsync(PublisherContext, Int32)
+- uid: BookPubDB.Repositories.BookRepository.GetByIdAsync*
+  name: GetByIdAsync
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_GetByIdAsync_
+  commentId: Overload:BookPubDB.Repositories.BookRepository.GetByIdAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.BookRepository.GetByIdAsync
+  nameWithType: BookRepository.GetByIdAsync
+- uid: BookPubDB.Repositories.BookRepository.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  name: UpdateAsync(PublisherContext, Int32, Object)
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_UpdateAsync_BookPubDB_Data_PublisherContext_System_Int32_System_Object_
+  commentId: M:BookPubDB.Repositories.BookRepository.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  fullName: BookPubDB.Repositories.BookRepository.UpdateAsync(BookPubDB.Data.PublisherContext, System.Int32, System.Object)
+  nameWithType: BookRepository.UpdateAsync(PublisherContext, Int32, Object)
+- uid: BookPubDB.Repositories.BookRepository.UpdateAsync*
+  name: UpdateAsync
+  href: api/BookPubDB.Repositories.BookRepository.html#BookPubDB_Repositories_BookRepository_UpdateAsync_
+  commentId: Overload:BookPubDB.Repositories.BookRepository.UpdateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.BookRepository.UpdateAsync
+  nameWithType: BookRepository.UpdateAsync
+- uid: BookPubDB.Repositories.CoverRepository
+  name: CoverRepository
+  href: api/BookPubDB.Repositories.CoverRepository.html
+  commentId: T:BookPubDB.Repositories.CoverRepository
+  fullName: BookPubDB.Repositories.CoverRepository
+  nameWithType: CoverRepository
+- uid: BookPubDB.Repositories.CoverRepository.AddTo(BookPubDB.Data.PublisherContext,System.Object)
+  name: AddTo(PublisherContext, Object)
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_AddTo_BookPubDB_Data_PublisherContext_System_Object_
+  commentId: M:BookPubDB.Repositories.CoverRepository.AddTo(BookPubDB.Data.PublisherContext,System.Object)
+  fullName: BookPubDB.Repositories.CoverRepository.AddTo(BookPubDB.Data.PublisherContext, System.Object)
+  nameWithType: CoverRepository.AddTo(PublisherContext, Object)
+- uid: BookPubDB.Repositories.CoverRepository.AddTo*
+  name: AddTo
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_AddTo_
+  commentId: Overload:BookPubDB.Repositories.CoverRepository.AddTo
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.CoverRepository.AddTo
+  nameWithType: CoverRepository.AddTo
+- uid: BookPubDB.Repositories.CoverRepository.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  name: CreateAsync(PublisherContext, Object)
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_CreateAsync_BookPubDB_Data_PublisherContext_System_Object_
+  commentId: M:BookPubDB.Repositories.CoverRepository.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  fullName: BookPubDB.Repositories.CoverRepository.CreateAsync(BookPubDB.Data.PublisherContext, System.Object)
+  nameWithType: CoverRepository.CreateAsync(PublisherContext, Object)
+- uid: BookPubDB.Repositories.CoverRepository.CreateAsync*
+  name: CreateAsync
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_CreateAsync_
+  commentId: Overload:BookPubDB.Repositories.CoverRepository.CreateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.CoverRepository.CreateAsync
+  nameWithType: CoverRepository.CreateAsync
+- uid: BookPubDB.Repositories.CoverRepository.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name: DeleteAsync(PublisherContext, Nullable<Int32>)
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_DeleteAsync_BookPubDB_Data_PublisherContext_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.CoverRepository.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name.vb: DeleteAsync(PublisherContext, Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.CoverRepository.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.CoverRepository.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable(Of System.Int32))
+  nameWithType: CoverRepository.DeleteAsync(PublisherContext, Nullable<Int32>)
+  nameWithType.vb: CoverRepository.DeleteAsync(PublisherContext, Nullable(Of Int32))
+- uid: BookPubDB.Repositories.CoverRepository.DeleteAsync*
+  name: DeleteAsync
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_DeleteAsync_
+  commentId: Overload:BookPubDB.Repositories.CoverRepository.DeleteAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.CoverRepository.DeleteAsync
+  nameWithType: CoverRepository.DeleteAsync
+- uid: BookPubDB.Repositories.CoverRepository.Exists(System.Nullable{System.Int32})
+  name: Exists(Nullable<Int32>)
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_Exists_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.CoverRepository.Exists(System.Nullable{System.Int32})
+  name.vb: Exists(Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.CoverRepository.Exists(System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.CoverRepository.Exists(System.Nullable(Of System.Int32))
+  nameWithType: CoverRepository.Exists(Nullable<Int32>)
+  nameWithType.vb: CoverRepository.Exists(Nullable(Of Int32))
+- uid: BookPubDB.Repositories.CoverRepository.Exists*
+  name: Exists
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_Exists_
+  commentId: Overload:BookPubDB.Repositories.CoverRepository.Exists
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.CoverRepository.Exists
+  nameWithType: CoverRepository.Exists
+- uid: BookPubDB.Repositories.CoverRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  name: GetAllAsync(PublisherContext)
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_GetAllAsync_BookPubDB_Data_PublisherContext_
+  commentId: M:BookPubDB.Repositories.CoverRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  fullName: BookPubDB.Repositories.CoverRepository.GetAllAsync(BookPubDB.Data.PublisherContext)
+  nameWithType: CoverRepository.GetAllAsync(PublisherContext)
+- uid: BookPubDB.Repositories.CoverRepository.GetAllAsync*
+  name: GetAllAsync
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_GetAllAsync_
+  commentId: Overload:BookPubDB.Repositories.CoverRepository.GetAllAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.CoverRepository.GetAllAsync
+  nameWithType: CoverRepository.GetAllAsync
+- uid: BookPubDB.Repositories.CoverRepository.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  name: GetByIdAsync(PublisherContext, Int32)
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_GetByIdAsync_BookPubDB_Data_PublisherContext_System_Int32_
+  commentId: M:BookPubDB.Repositories.CoverRepository.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  fullName: BookPubDB.Repositories.CoverRepository.GetByIdAsync(BookPubDB.Data.PublisherContext, System.Int32)
+  nameWithType: CoverRepository.GetByIdAsync(PublisherContext, Int32)
+- uid: BookPubDB.Repositories.CoverRepository.GetByIdAsync*
+  name: GetByIdAsync
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_GetByIdAsync_
+  commentId: Overload:BookPubDB.Repositories.CoverRepository.GetByIdAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.CoverRepository.GetByIdAsync
+  nameWithType: CoverRepository.GetByIdAsync
+- uid: BookPubDB.Repositories.CoverRepository.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  name: UpdateAsync(PublisherContext, Int32, Object)
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_UpdateAsync_BookPubDB_Data_PublisherContext_System_Int32_System_Object_
+  commentId: M:BookPubDB.Repositories.CoverRepository.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  fullName: BookPubDB.Repositories.CoverRepository.UpdateAsync(BookPubDB.Data.PublisherContext, System.Int32, System.Object)
+  nameWithType: CoverRepository.UpdateAsync(PublisherContext, Int32, Object)
+- uid: BookPubDB.Repositories.CoverRepository.UpdateAsync*
+  name: UpdateAsync
+  href: api/BookPubDB.Repositories.CoverRepository.html#BookPubDB_Repositories_CoverRepository_UpdateAsync_
+  commentId: Overload:BookPubDB.Repositories.CoverRepository.UpdateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.CoverRepository.UpdateAsync
+  nameWithType: CoverRepository.UpdateAsync
+- uid: BookPubDB.Repositories.IFilterRepository
+  name: IFilterRepository
+  href: api/BookPubDB.Repositories.IFilterRepository.html
+  commentId: T:BookPubDB.Repositories.IFilterRepository
+  fullName: BookPubDB.Repositories.IFilterRepository
+  nameWithType: IFilterRepository
+- uid: BookPubDB.Repositories.IFilterRepository.Exists(System.Nullable{System.Int32})
+  name: Exists(Nullable<Int32>)
+  href: api/BookPubDB.Repositories.IFilterRepository.html#BookPubDB_Repositories_IFilterRepository_Exists_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.IFilterRepository.Exists(System.Nullable{System.Int32})
+  name.vb: Exists(Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.IFilterRepository.Exists(System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.IFilterRepository.Exists(System.Nullable(Of System.Int32))
+  nameWithType: IFilterRepository.Exists(Nullable<Int32>)
+  nameWithType.vb: IFilterRepository.Exists(Nullable(Of Int32))
+- uid: BookPubDB.Repositories.IFilterRepository.Exists*
+  name: Exists
+  href: api/BookPubDB.Repositories.IFilterRepository.html#BookPubDB_Repositories_IFilterRepository_Exists_
+  commentId: Overload:BookPubDB.Repositories.IFilterRepository.Exists
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.IFilterRepository.Exists
+  nameWithType: IFilterRepository.Exists
+- uid: BookPubDB.Repositories.IRepository`1
+  name: IRepository<T>
+  href: api/BookPubDB.Repositories.IRepository-1.html
+  commentId: T:BookPubDB.Repositories.IRepository`1
+  name.vb: IRepository(Of T)
+  fullName: BookPubDB.Repositories.IRepository<T>
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T)
+  nameWithType: IRepository<T>
+  nameWithType.vb: IRepository(Of T)
+- uid: BookPubDB.Repositories.IRepository`1.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  name: CreateAsync(PublisherContext, Object)
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_CreateAsync_BookPubDB_Data_PublisherContext_System_Object_
+  commentId: M:BookPubDB.Repositories.IRepository`1.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  fullName: BookPubDB.Repositories.IRepository<T>.CreateAsync(BookPubDB.Data.PublisherContext, System.Object)
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).CreateAsync(BookPubDB.Data.PublisherContext, System.Object)
+  nameWithType: IRepository<T>.CreateAsync(PublisherContext, Object)
+  nameWithType.vb: IRepository(Of T).CreateAsync(PublisherContext, Object)
+- uid: BookPubDB.Repositories.IRepository`1.CreateAsync*
+  name: CreateAsync
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_CreateAsync_
+  commentId: Overload:BookPubDB.Repositories.IRepository`1.CreateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.IRepository<T>.CreateAsync
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).CreateAsync
+  nameWithType: IRepository<T>.CreateAsync
+  nameWithType.vb: IRepository(Of T).CreateAsync
+- uid: BookPubDB.Repositories.IRepository`1.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name: DeleteAsync(PublisherContext, Nullable<Int32>)
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_DeleteAsync_BookPubDB_Data_PublisherContext_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.IRepository`1.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name.vb: DeleteAsync(PublisherContext, Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.IRepository<T>.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable(Of System.Int32))
+  nameWithType: IRepository<T>.DeleteAsync(PublisherContext, Nullable<Int32>)
+  nameWithType.vb: IRepository(Of T).DeleteAsync(PublisherContext, Nullable(Of Int32))
+- uid: BookPubDB.Repositories.IRepository`1.DeleteAsync*
+  name: DeleteAsync
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_DeleteAsync_
+  commentId: Overload:BookPubDB.Repositories.IRepository`1.DeleteAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.IRepository<T>.DeleteAsync
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).DeleteAsync
+  nameWithType: IRepository<T>.DeleteAsync
+  nameWithType.vb: IRepository(Of T).DeleteAsync
+- uid: BookPubDB.Repositories.IRepository`1.GetAllAsync(BookPubDB.Data.PublisherContext)
+  name: GetAllAsync(PublisherContext)
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_GetAllAsync_BookPubDB_Data_PublisherContext_
+  commentId: M:BookPubDB.Repositories.IRepository`1.GetAllAsync(BookPubDB.Data.PublisherContext)
+  fullName: BookPubDB.Repositories.IRepository<T>.GetAllAsync(BookPubDB.Data.PublisherContext)
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).GetAllAsync(BookPubDB.Data.PublisherContext)
+  nameWithType: IRepository<T>.GetAllAsync(PublisherContext)
+  nameWithType.vb: IRepository(Of T).GetAllAsync(PublisherContext)
+- uid: BookPubDB.Repositories.IRepository`1.GetAllAsync*
+  name: GetAllAsync
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_GetAllAsync_
+  commentId: Overload:BookPubDB.Repositories.IRepository`1.GetAllAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.IRepository<T>.GetAllAsync
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).GetAllAsync
+  nameWithType: IRepository<T>.GetAllAsync
+  nameWithType.vb: IRepository(Of T).GetAllAsync
+- uid: BookPubDB.Repositories.IRepository`1.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  name: GetByIdAsync(PublisherContext, Int32)
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_GetByIdAsync_BookPubDB_Data_PublisherContext_System_Int32_
+  commentId: M:BookPubDB.Repositories.IRepository`1.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  fullName: BookPubDB.Repositories.IRepository<T>.GetByIdAsync(BookPubDB.Data.PublisherContext, System.Int32)
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).GetByIdAsync(BookPubDB.Data.PublisherContext, System.Int32)
+  nameWithType: IRepository<T>.GetByIdAsync(PublisherContext, Int32)
+  nameWithType.vb: IRepository(Of T).GetByIdAsync(PublisherContext, Int32)
+- uid: BookPubDB.Repositories.IRepository`1.GetByIdAsync*
+  name: GetByIdAsync
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_GetByIdAsync_
+  commentId: Overload:BookPubDB.Repositories.IRepository`1.GetByIdAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.IRepository<T>.GetByIdAsync
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).GetByIdAsync
+  nameWithType: IRepository<T>.GetByIdAsync
+  nameWithType.vb: IRepository(Of T).GetByIdAsync
+- uid: BookPubDB.Repositories.IRepository`1.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  name: UpdateAsync(PublisherContext, Int32, Object)
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_UpdateAsync_BookPubDB_Data_PublisherContext_System_Int32_System_Object_
+  commentId: M:BookPubDB.Repositories.IRepository`1.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  fullName: BookPubDB.Repositories.IRepository<T>.UpdateAsync(BookPubDB.Data.PublisherContext, System.Int32, System.Object)
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).UpdateAsync(BookPubDB.Data.PublisherContext, System.Int32, System.Object)
+  nameWithType: IRepository<T>.UpdateAsync(PublisherContext, Int32, Object)
+  nameWithType.vb: IRepository(Of T).UpdateAsync(PublisherContext, Int32, Object)
+- uid: BookPubDB.Repositories.IRepository`1.UpdateAsync*
+  name: UpdateAsync
+  href: api/BookPubDB.Repositories.IRepository-1.html#BookPubDB_Repositories_IRepository_1_UpdateAsync_
+  commentId: Overload:BookPubDB.Repositories.IRepository`1.UpdateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.IRepository<T>.UpdateAsync
+  fullName.vb: BookPubDB.Repositories.IRepository(Of T).UpdateAsync
+  nameWithType: IRepository<T>.UpdateAsync
+  nameWithType.vb: IRepository(Of T).UpdateAsync
+- uid: BookPubDB.Repositories.Repository`1
+  name: Repository<T>
+  href: api/BookPubDB.Repositories.Repository-1.html
+  commentId: T:BookPubDB.Repositories.Repository`1
+  name.vb: Repository(Of T)
+  fullName: BookPubDB.Repositories.Repository<T>
+  fullName.vb: BookPubDB.Repositories.Repository(Of T)
+  nameWithType: Repository<T>
+  nameWithType.vb: Repository(Of T)
+- uid: BookPubDB.Repositories.Repository`1.AddTo(BookPubDB.Data.PublisherContext,System.Object)
+  name: AddTo(PublisherContext, Object)
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_AddTo_BookPubDB_Data_PublisherContext_System_Object_
+  commentId: M:BookPubDB.Repositories.Repository`1.AddTo(BookPubDB.Data.PublisherContext,System.Object)
+  fullName: BookPubDB.Repositories.Repository<T>.AddTo(BookPubDB.Data.PublisherContext, System.Object)
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).AddTo(BookPubDB.Data.PublisherContext, System.Object)
+  nameWithType: Repository<T>.AddTo(PublisherContext, Object)
+  nameWithType.vb: Repository(Of T).AddTo(PublisherContext, Object)
+- uid: BookPubDB.Repositories.Repository`1.AddTo*
+  name: AddTo
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_AddTo_
+  commentId: Overload:BookPubDB.Repositories.Repository`1.AddTo
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.Repository<T>.AddTo
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).AddTo
+  nameWithType: Repository<T>.AddTo
+  nameWithType.vb: Repository(Of T).AddTo
+- uid: BookPubDB.Repositories.Repository`1.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  name: CreateAsync(PublisherContext, Object)
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_CreateAsync_BookPubDB_Data_PublisherContext_System_Object_
+  commentId: M:BookPubDB.Repositories.Repository`1.CreateAsync(BookPubDB.Data.PublisherContext,System.Object)
+  fullName: BookPubDB.Repositories.Repository<T>.CreateAsync(BookPubDB.Data.PublisherContext, System.Object)
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).CreateAsync(BookPubDB.Data.PublisherContext, System.Object)
+  nameWithType: Repository<T>.CreateAsync(PublisherContext, Object)
+  nameWithType.vb: Repository(Of T).CreateAsync(PublisherContext, Object)
+- uid: BookPubDB.Repositories.Repository`1.CreateAsync*
+  name: CreateAsync
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_CreateAsync_
+  commentId: Overload:BookPubDB.Repositories.Repository`1.CreateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.Repository<T>.CreateAsync
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).CreateAsync
+  nameWithType: Repository<T>.CreateAsync
+  nameWithType.vb: Repository(Of T).CreateAsync
+- uid: BookPubDB.Repositories.Repository`1.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name: DeleteAsync(PublisherContext, Nullable<Int32>)
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_DeleteAsync_BookPubDB_Data_PublisherContext_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.Repository`1.DeleteAsync(BookPubDB.Data.PublisherContext,System.Nullable{System.Int32})
+  name.vb: DeleteAsync(PublisherContext, Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.Repository<T>.DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).DeleteAsync(BookPubDB.Data.PublisherContext, System.Nullable(Of System.Int32))
+  nameWithType: Repository<T>.DeleteAsync(PublisherContext, Nullable<Int32>)
+  nameWithType.vb: Repository(Of T).DeleteAsync(PublisherContext, Nullable(Of Int32))
+- uid: BookPubDB.Repositories.Repository`1.DeleteAsync*
+  name: DeleteAsync
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_DeleteAsync_
+  commentId: Overload:BookPubDB.Repositories.Repository`1.DeleteAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.Repository<T>.DeleteAsync
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).DeleteAsync
+  nameWithType: Repository<T>.DeleteAsync
+  nameWithType.vb: Repository(Of T).DeleteAsync
+- uid: BookPubDB.Repositories.Repository`1.Exists(System.Nullable{System.Int32})
+  name: Exists(Nullable<Int32>)
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_Exists_System_Nullable_System_Int32__
+  commentId: M:BookPubDB.Repositories.Repository`1.Exists(System.Nullable{System.Int32})
+  name.vb: Exists(Nullable(Of Int32))
+  fullName: BookPubDB.Repositories.Repository<T>.Exists(System.Nullable<System.Int32>)
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).Exists(System.Nullable(Of System.Int32))
+  nameWithType: Repository<T>.Exists(Nullable<Int32>)
+  nameWithType.vb: Repository(Of T).Exists(Nullable(Of Int32))
+- uid: BookPubDB.Repositories.Repository`1.Exists*
+  name: Exists
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_Exists_
+  commentId: Overload:BookPubDB.Repositories.Repository`1.Exists
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.Repository<T>.Exists
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).Exists
+  nameWithType: Repository<T>.Exists
+  nameWithType.vb: Repository(Of T).Exists
+- uid: BookPubDB.Repositories.Repository`1.GetAllAsync(BookPubDB.Data.PublisherContext)
+  name: GetAllAsync(PublisherContext)
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_GetAllAsync_BookPubDB_Data_PublisherContext_
+  commentId: M:BookPubDB.Repositories.Repository`1.GetAllAsync(BookPubDB.Data.PublisherContext)
+  fullName: BookPubDB.Repositories.Repository<T>.GetAllAsync(BookPubDB.Data.PublisherContext)
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).GetAllAsync(BookPubDB.Data.PublisherContext)
+  nameWithType: Repository<T>.GetAllAsync(PublisherContext)
+  nameWithType.vb: Repository(Of T).GetAllAsync(PublisherContext)
+- uid: BookPubDB.Repositories.Repository`1.GetAllAsync*
+  name: GetAllAsync
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_GetAllAsync_
+  commentId: Overload:BookPubDB.Repositories.Repository`1.GetAllAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.Repository<T>.GetAllAsync
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).GetAllAsync
+  nameWithType: Repository<T>.GetAllAsync
+  nameWithType.vb: Repository(Of T).GetAllAsync
+- uid: BookPubDB.Repositories.Repository`1.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  name: GetByIdAsync(PublisherContext, Int32)
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_GetByIdAsync_BookPubDB_Data_PublisherContext_System_Int32_
+  commentId: M:BookPubDB.Repositories.Repository`1.GetByIdAsync(BookPubDB.Data.PublisherContext,System.Int32)
+  fullName: BookPubDB.Repositories.Repository<T>.GetByIdAsync(BookPubDB.Data.PublisherContext, System.Int32)
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).GetByIdAsync(BookPubDB.Data.PublisherContext, System.Int32)
+  nameWithType: Repository<T>.GetByIdAsync(PublisherContext, Int32)
+  nameWithType.vb: Repository(Of T).GetByIdAsync(PublisherContext, Int32)
+- uid: BookPubDB.Repositories.Repository`1.GetByIdAsync*
+  name: GetByIdAsync
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_GetByIdAsync_
+  commentId: Overload:BookPubDB.Repositories.Repository`1.GetByIdAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.Repository<T>.GetByIdAsync
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).GetByIdAsync
+  nameWithType: Repository<T>.GetByIdAsync
+  nameWithType.vb: Repository(Of T).GetByIdAsync
+- uid: BookPubDB.Repositories.Repository`1.GetSuccessState(`0,System.Int32)
+  name: GetSuccessState(T, Int32)
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_GetSuccessState__0_System_Int32_
+  commentId: M:BookPubDB.Repositories.Repository`1.GetSuccessState(`0,System.Int32)
+  fullName: BookPubDB.Repositories.Repository<T>.GetSuccessState(T, System.Int32)
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).GetSuccessState(T, System.Int32)
+  nameWithType: Repository<T>.GetSuccessState(T, Int32)
+  nameWithType.vb: Repository(Of T).GetSuccessState(T, Int32)
+- uid: BookPubDB.Repositories.Repository`1.GetSuccessState*
+  name: GetSuccessState
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_GetSuccessState_
+  commentId: Overload:BookPubDB.Repositories.Repository`1.GetSuccessState
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.Repository<T>.GetSuccessState
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).GetSuccessState
+  nameWithType: Repository<T>.GetSuccessState
+  nameWithType.vb: Repository(Of T).GetSuccessState
+- uid: BookPubDB.Repositories.Repository`1.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  name: UpdateAsync(PublisherContext, Int32, Object)
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_UpdateAsync_BookPubDB_Data_PublisherContext_System_Int32_System_Object_
+  commentId: M:BookPubDB.Repositories.Repository`1.UpdateAsync(BookPubDB.Data.PublisherContext,System.Int32,System.Object)
+  fullName: BookPubDB.Repositories.Repository<T>.UpdateAsync(BookPubDB.Data.PublisherContext, System.Int32, System.Object)
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).UpdateAsync(BookPubDB.Data.PublisherContext, System.Int32, System.Object)
+  nameWithType: Repository<T>.UpdateAsync(PublisherContext, Int32, Object)
+  nameWithType.vb: Repository(Of T).UpdateAsync(PublisherContext, Int32, Object)
+- uid: BookPubDB.Repositories.Repository`1.UpdateAsync*
+  name: UpdateAsync
+  href: api/BookPubDB.Repositories.Repository-1.html#BookPubDB_Repositories_Repository_1_UpdateAsync_
+  commentId: Overload:BookPubDB.Repositories.Repository`1.UpdateAsync
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.Repository<T>.UpdateAsync
+  fullName.vb: BookPubDB.Repositories.Repository(Of T).UpdateAsync
+  nameWithType: Repository<T>.UpdateAsync
+  nameWithType.vb: Repository(Of T).UpdateAsync
+- uid: BookPubDB.Repositories.UserRepository
+  name: UserRepository
+  href: api/BookPubDB.Repositories.UserRepository.html
+  commentId: T:BookPubDB.Repositories.UserRepository
+  fullName: BookPubDB.Repositories.UserRepository
+  nameWithType: UserRepository
+- uid: BookPubDB.Repositories.UserRepository.DetermineLogin(BookPubDB.Model.Identity.LoginUser,Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser})
+  name: DetermineLogin(LoginUser, UserManager<IdentityUser>)
+  href: api/BookPubDB.Repositories.UserRepository.html#BookPubDB_Repositories_UserRepository_DetermineLogin_BookPubDB_Model_Identity_LoginUser_Microsoft_AspNetCore_Identity_UserManager_Microsoft_AspNetCore_Identity_IdentityUser__
+  commentId: M:BookPubDB.Repositories.UserRepository.DetermineLogin(BookPubDB.Model.Identity.LoginUser,Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser})
+  name.vb: DetermineLogin(LoginUser, UserManager(Of IdentityUser))
+  fullName: BookPubDB.Repositories.UserRepository.DetermineLogin(BookPubDB.Model.Identity.LoginUser, Microsoft.AspNetCore.Identity.UserManager<Microsoft.AspNetCore.Identity.IdentityUser>)
+  fullName.vb: BookPubDB.Repositories.UserRepository.DetermineLogin(BookPubDB.Model.Identity.LoginUser, Microsoft.AspNetCore.Identity.UserManager(Of Microsoft.AspNetCore.Identity.IdentityUser))
+  nameWithType: UserRepository.DetermineLogin(LoginUser, UserManager<IdentityUser>)
+  nameWithType.vb: UserRepository.DetermineLogin(LoginUser, UserManager(Of IdentityUser))
+- uid: BookPubDB.Repositories.UserRepository.DetermineLogin*
+  name: DetermineLogin
+  href: api/BookPubDB.Repositories.UserRepository.html#BookPubDB_Repositories_UserRepository_DetermineLogin_
+  commentId: Overload:BookPubDB.Repositories.UserRepository.DetermineLogin
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.UserRepository.DetermineLogin
+  nameWithType: UserRepository.DetermineLogin
+- uid: BookPubDB.Repositories.UserRepository.GenerateJwtToken(Microsoft.AspNetCore.Identity.IdentityUser,Microsoft.Extensions.Configuration.IConfiguration)
+  name: GenerateJwtToken(IdentityUser, IConfiguration)
+  href: api/BookPubDB.Repositories.UserRepository.html#BookPubDB_Repositories_UserRepository_GenerateJwtToken_Microsoft_AspNetCore_Identity_IdentityUser_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:BookPubDB.Repositories.UserRepository.GenerateJwtToken(Microsoft.AspNetCore.Identity.IdentityUser,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: BookPubDB.Repositories.UserRepository.GenerateJwtToken(Microsoft.AspNetCore.Identity.IdentityUser, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: UserRepository.GenerateJwtToken(IdentityUser, IConfiguration)
+- uid: BookPubDB.Repositories.UserRepository.GenerateJwtToken*
+  name: GenerateJwtToken
+  href: api/BookPubDB.Repositories.UserRepository.html#BookPubDB_Repositories_UserRepository_GenerateJwtToken_
+  commentId: Overload:BookPubDB.Repositories.UserRepository.GenerateJwtToken
+  isSpec: "True"
+  fullName: BookPubDB.Repositories.UserRepository.GenerateJwtToken
+  nameWithType: UserRepository.GenerateJwtToken
+- uid: Utils
+  name: Utils
+  href: api/Utils.html
+  commentId: N:Utils
+  fullName: Utils
+  nameWithType: Utils
+- uid: Utils.ObjectExtensions
+  name: ObjectExtensions
+  href: api/Utils.ObjectExtensions.html
+  commentId: T:Utils.ObjectExtensions
+  fullName: Utils.ObjectExtensions
+  nameWithType: ObjectExtensions
+- uid: Utils.ObjectExtensions.HasProperties(System.Object)
+  name: HasProperties(Object)
+  href: api/Utils.ObjectExtensions.html#Utils_ObjectExtensions_HasProperties_System_Object_
+  commentId: M:Utils.ObjectExtensions.HasProperties(System.Object)
+  fullName: Utils.ObjectExtensions.HasProperties(System.Object)
+  nameWithType: ObjectExtensions.HasProperties(Object)
+- uid: Utils.ObjectExtensions.HasProperties*
+  name: HasProperties
+  href: api/Utils.ObjectExtensions.html#Utils_ObjectExtensions_HasProperties_
+  commentId: Overload:Utils.ObjectExtensions.HasProperties
+  isSpec: "True"
+  fullName: Utils.ObjectExtensions.HasProperties
+  nameWithType: ObjectExtensions.HasProperties
+- uid: Utils.ObjectExtensions.ToJson(System.Object,System.Boolean)
+  name: ToJson(Object, Boolean)
+  href: api/Utils.ObjectExtensions.html#Utils_ObjectExtensions_ToJson_System_Object_System_Boolean_
+  commentId: M:Utils.ObjectExtensions.ToJson(System.Object,System.Boolean)
+  fullName: Utils.ObjectExtensions.ToJson(System.Object, System.Boolean)
+  nameWithType: ObjectExtensions.ToJson(Object, Boolean)
+- uid: Utils.ObjectExtensions.ToJson*
+  name: ToJson
+  href: api/Utils.ObjectExtensions.html#Utils_ObjectExtensions_ToJson_
+  commentId: Overload:Utils.ObjectExtensions.ToJson
+  isSpec: "True"
+  fullName: Utils.ObjectExtensions.ToJson
+  nameWithType: ObjectExtensions.ToJson

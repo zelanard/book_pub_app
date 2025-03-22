@@ -7,6 +7,8 @@ import Artist from '../pages/Artist';
 import Cover from '../pages/Cover';
 import Author from '../pages/Author';
 import Book from '../pages/Book';
+import DocFXIframe from '../pages/Site/DocFXIframe';
+import DocumentationIcon from '../icons/DocumentationIcon';
 
 const pages = {
     home: {
@@ -33,6 +35,11 @@ const pages = {
         icon: <BrushIcon />,
         text: "Artists",
         body: <Artist />
+    },
+    documentation: {
+        icon: <DocumentationIcon />,
+        text: "Documentation",
+        body: <DocFXIframe />
     }
 };
 

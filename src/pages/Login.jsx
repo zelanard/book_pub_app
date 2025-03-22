@@ -25,7 +25,6 @@ const Login = () => {
             justifyContent: "center"
         }}>
             <Box sx={{ width: "450px" }}>
-                {/* center to the smaller box to align the heading to the center */}
                 <Box sx={{
                     width: "500px"
                 }}>
@@ -49,7 +48,6 @@ const Login = () => {
                         <PasswordField
                             label="Password"
                             variant="outlined"
-                            type="password"
                             fullWidth
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}

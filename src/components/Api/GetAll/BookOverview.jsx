@@ -16,6 +16,10 @@ import BookForm from "../../Forms/BookForm";
 import dayjs from 'dayjs';
 import DataField from "../../Fields/DataField";
 
+/**
+ * BookOverview component that displays a list of books and allows CRUD operations
+ * @returns {JSX.Element} The rendered component
+ */
 const BookOverview = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -38,6 +42,10 @@ const BookOverview = () => {
 
     const activeApi = api.book;
 
+    /**
+     * Fetches book data when the component is mounted or when the selected book ID changes
+     * and manages the state of loading and errors.
+     */
     useEffect(() => {
         if (id) {
             fetchBook(activeApi, id, setCover, setAuthor, setTitle, handlePublishDate, setBasePrice, setAuthorId, setErrorSelected, setLoadingSelected);
@@ -45,29 +53,52 @@ const BookOverview = () => {
         fetchData(activeApi, setData, setError, setLoading);
     }, [id, shouldFetchData]);
 
+    /**
+     * Converts a dayjs date to string format 'YYYY-MM-DD'
+     * @param {dayjs.Dayjs} date - The date to convert
+     * @returns {string} The formatted date string
+     */
     const dateToString = (date) => {
         return date.format('YYYY-MM-DD');
     }
 
+    /**
+     * Converts a string date to a dayjs object
+     * @param {string} date - The date string to convert
+     * @returns {dayjs.Dayjs} The converted dayjs date object
+     */
     const stringToDate = (date) => {
         return dayjs(date, 'YYYY-MM-DD', true);
     }
 
+    /**
+     * Handles setting the publish date of a book
+     * @param {string} date - The publish date to set
+     */
     const handlePublishDate = (date) => {
         setPublishDate(stringToDate(date));
     }
 
+    /**
+     * Handles editing a book's details by sending the updated data to the server.
+     */
     const handleEditBook = async () => {
         await Update(activeApi, id, { id, title, publishDate: dateToString(publishDate), basePrice, authorId });
         setShouldFetchData(prev => !prev);
     };
 
+    /**
+     * Handles deleting a book by sending a delete request to the server and resetting the form.
+     */
     const handleDeleteBook = async () => {
         await Delete(activeApi, id);
         resetBook();
         setShouldFetchData(prev => !prev);
     };
 
+    /**
+     * Handles creating a new book by sending the data to the server and resetting the form.
+     */
     const handleNewBook = async () => {
         await Create(activeApi, { title, publishDate: dateToString(publishDate), basePrice, authorId });
         setNewBook(false);
@@ -75,6 +106,9 @@ const BookOverview = () => {
         setShouldFetchData(prev => !prev);
     }
 
+    /**
+     * Resets the form fields back to their default state.
+     */
     const resetBook = () => {
         setTitle("");
         setPublishDate(dayjs());
@@ -84,11 +118,18 @@ const BookOverview = () => {
         setId("");
     }
 
+    /**
+     * Initializes the form for adding a new book.
+     */
     const handleInitSetNewBook = () => {
         resetBook();
         setNewBook(true);
     }
 
+    /**
+     * Maps the book data to rows for the data grid view.
+     * @returns {Array} The mapped book data rows
+     */
     const dataRows = data.map((value, index) => ({
         id: value.id,
         Title: value.title,
@@ -96,13 +137,21 @@ const BookOverview = () => {
         BasePrice: value.basePrice
     }));
 
+    /**
+     * Defines the columns for the data grid view.
+     * @returns {Array} The columns definition for the data grid
+     */
     const dataColumns = [
-        { field: "id", headerName: "ID",width: 60 },
-        { field: "Title", headerName: "Title", flex:1 },
+        { field: "id", headerName: "ID", width: 60 },
+        { field: "Title", headerName: "Title", flex: 1 },
         { field: "PublishDate", headerName: "PublishDate" },
         { field: "BasePrice", headerName: "BasePrice" }
     ];
 
+    /**
+     * Handles the row click event in the data grid, setting the selected book ID.
+     * @param {Object} params - The row click event parameters
+     */
     const handleRowClick = (params) => {
         setId(params.row["id"]);
     }
@@ -147,7 +196,7 @@ const BookOverview = () => {
                                 onClick={() => handleDeleteBook()}
                             />
                             <Divider sx={{ marginTop: "40px", marginBottom: "10px" }} > Cover </Divider>
-                            <DataField data={cover}/>
+                            <DataField data={cover} />
                         </Box>
                     }
                 </Box>

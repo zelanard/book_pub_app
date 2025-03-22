@@ -15,6 +15,10 @@ import PersonForm from "../../Forms/PersonForm";
 import DeleteButton from "../../Buttons/DeleteButton";
 import EditButton from "../../Buttons/EditButton";
 
+/**
+ * ArtistOverview component that displays a list of artists and allows CRUD operations
+ * @returns {JSX.Element} The rendered component
+ */
 const ArtistOverview = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -34,6 +38,10 @@ const ArtistOverview = () => {
         page: 0,
     });
 
+    /**
+     * Fetches artist list and selected artist's covers when ID changes.
+     * Triggers a refresh when `shouldFetchData` changes.
+     */
     useEffect(() => {
         if (id) {
             fetchArtistCovers(api.artist, id, setCovers, setFirstName, setLastName, setErrorSelected, setLoadingSelected);
@@ -41,69 +49,114 @@ const ArtistOverview = () => {
         fetchData(api.artist, setData, setError, setLoading);
     }, [id, shouldFetchData]);
 
+    /**
+     * Handles updating an existing artist's details.
+     * Updates first name and last name based on form input.
+     */
     const handleEditArtist = async () => {
         await Update(api.artist, id, { id, firstName, lastName });
         setShouldFetchData(prev => !prev);
     };
 
+    /**
+     * Handles deleting an artist.
+     * Resets the selected artist and refreshes the data.
+     */
     const handleDeleteArtist = async () => {
         await Delete(api.artist, id);
         resetArtist();
         setShouldFetchData(prev => !prev);
     };
 
+    /**
+     * Handles creating a new artist.
+     * Resets input fields and refreshes the data.
+     */
     const handleNewArtist = async () => {
         await Create(api.artist, { firstName, lastName });
         setNewArtist(false);
         resetArtist();
         setShouldFetchData(prev => !prev);
-    }
+    };
 
+    /**
+     * Resets artist form fields.
+     */
     const resetArtist = () => {
         setFirstName("");
         setLastName("");
         setId("");
-    }
+    };
 
+    /**
+     * Initializes the form for creating a new artist.
+     */
     const handleInitSetNewArtist = () => {
         resetArtist();
         setNewArtist(true);
-    }
+    };
 
-    const dataRows = data.map((value, index) => ({
+    /**
+     * Transforms artist data into rows for the DataGrid component.
+     */
+    const dataRows = data.map((value) => ({
         id: value.id,
         firstName: value.firstName,
         lastName: value.lastName,
     }));
 
+    /**
+     * Defines column structure for the artist DataGrid.
+     */
     const dataColumns = [
         { field: "id", headerName: "ID", width: 60 },
         { field: "firstName", headerName: "First Name", flex: 1 },
         { field: "lastName", headerName: "Last Name", flex: 1 },
     ];
 
-    const coverRows = covers.map((value, index) => ({
+    /**
+     * Transforms artist cover data into rows for the DataGrid component.
+     */
+    const coverRows = covers.map((value) => ({
         id: value.id,
         designIdeas: value.designIdeas,
         digitalOnly: value.digitalOnly,
         bookId: value.bookId
     }));
 
+    /**
+     * Defines column structure for the artist covers DataGrid.
+     */
     const coverColumns = [
         { field: "id", headerName: "id", width: 60 },
-        { field: "designIdeas", headerName: "designIdeas", flex: 1 },
-        { field: "digitalOnly", headerName: "digitalOnly", flex: 1 },
-        { field: "bookId", headerName: "bookId", flex: 1 }
+        { field: "designIdeas", headerName: "Design Ideas", flex: 1 },
+        { field: "digitalOnly", headerName: "Digital Only", flex: 1 },
+        { field: "bookId", headerName: "Book ID", flex: 1 }
     ];
 
+    /**
+     * Handles row selection in the artist DataGrid.
+     * 
+     * @param {Object} params - DataGrid row parameters.
+     */
     const handleRowClick = (params) => {
         setId(params.row["id"]);
-    }
+    };
 
+    /**
+     * Handles change in the first name input field.
+     * 
+     * @param {Object} event - Change event.
+     */
     const handleFirstNameChange = (event) => {
         setFirstName(event.target.value);
     };
 
+    /**
+     * Handles change in the last name input field.
+     * 
+     * @param {Object} event - Change event.
+     */
     const handleLastNameChange = (event) => {
         setLastName(event.target.value);
     };
@@ -169,7 +222,7 @@ const ArtistOverview = () => {
                     onLastNameChange={handleLastNameChange}
                 />}
             />
-        </Box >
+        </Box>
     );
 };
 

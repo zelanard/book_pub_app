@@ -7,7 +7,6 @@ import Update from "../../../Objects/Api/Update";
 import Delete from "../../../Objects/Api/Delete";
 import Create from "../../../Objects/Api/Create";
 import fetchData from "../../../Objects/fetch/fetchData";
-import fetchArtistCovers from "../../../Objects/fetch/fetchArtistCovers";
 import CustomGridToolbar from "../../Toolbars/CustomGridToolbar";
 import AsyncDataGridView from "../../AsyncDataGridView";
 import CreateForm from "../../Forms/CreateForm";
@@ -16,6 +15,10 @@ import DeleteButton from "../../Buttons/DeleteButton";
 import EditButton from "../../Buttons/EditButton";
 import fetchAuthorBooks from "../../../Objects/fetch/fetchAuthorBooks";
 
+/**
+ * AuthorOverview component that displays a list of authors and allows CRUD operations
+ * @returns {JSX.Element} The rendered component
+ */
 const AuthorOverview = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -37,6 +40,9 @@ const AuthorOverview = () => {
 
     const activeApi = api.authors;
 
+    /** 
+     * Fetch data for authors and books, based on selected author ID
+     */
     useEffect(() => {
         if (id) {
             fetchAuthorBooks(activeApi, id, setBooks, setFirstName, setLastName, setErrorSelected, setLoadingSelected);
@@ -44,17 +50,26 @@ const AuthorOverview = () => {
         fetchData(activeApi, setData, setError, setLoading);
     }, [id, shouldFetchData]);
 
+    /**
+     * Handle updating an author's information
+     */
     const handleEditAuthor = async () => {
         await Update(activeApi, id, { id, firstName, lastName });
         setShouldFetchData(prev => !prev);
     };
 
+    /**
+     * Handle deleting an author
+     */
     const handleDeleteAuthor = async () => {
         await Delete(activeApi, id);
         resetAuthor();
         setShouldFetchData(prev => !prev);
     };
 
+    /**
+     * Handle creating a new author
+     */
     const handleNewAuthor = async () => {
         await Create(activeApi, { firstName, lastName });
         setNewAuthor(false);
@@ -62,29 +77,47 @@ const AuthorOverview = () => {
         setShouldFetchData(prev => !prev);
     }
 
+    /**
+     * Reset author form fields
+     */
     const resetAuthor = () => {
         setFirstName("");
         setLastName("");
         setId("");
     }
 
+    /**
+     * Initialize setting a new author
+     */
     const handleInitSetNewAuthor = () => {
         resetAuthor();
         setNewAuthor(true);
     }
 
+    /**
+     * Map author data to rows for DataGrid display
+     * @returns {Array} Rows of author data for the DataGrid
+     */
     const dataRows = data.map((value, index) => ({
         id: value.id,
         firstName: value.firstName,
         lastName: value.lastName,
     }));
 
+    /**
+     * Define columns for the authors DataGrid
+     * @returns {Array} Columns definition for the DataGrid
+     */
     const dataColumns = [
         { field: "id", headerName: "ID", width: 60 },
         { field: "firstName", headerName: "First Name", flex: 1 },
         { field: "lastName", headerName: "Last Name", flex: 1 },
     ];
 
+    /**
+     * Map book data to rows for the DataGrid display
+     * @returns {Array} Rows of book data for the DataGrid
+     */
     const bookRows = books.map((value, index) => ({
         id: value.id,
         Title: value.title,
@@ -93,6 +126,10 @@ const AuthorOverview = () => {
         AuthorId: value.authorId,
     }));
 
+    /**
+     * Define columns for the books DataGrid
+     * @returns {Array} Columns definition for the DataGrid
+     */
     const bookColumns = [
         { field: "id", headerName: "ID" },
         { field: "Title", headerName: "Title" },
@@ -101,14 +138,26 @@ const AuthorOverview = () => {
         { field: "AuthorId", headerName: "AuthorId" },
     ];
 
+    /**
+     * Handle row click in the authors grid to select an author
+     * @param {*} params - The clicked row's data
+     */
     const handleRowClick = (params) => {
         setId(params.row["id"]);
     }
-
+    
+    /**
+     * Handle change of first name input field
+     * @param {*} event - The event triggered by input change
+     */
     const handleFirstNameChange = (event) => {
         setFirstName(event.target.value);
     };
 
+    /**
+     * Handle change of last name input field
+     * @param {*} event - The event triggered by input change
+     */
     const handleLastNameChange = (event) => {
         setLastName(event.target.value);
     };

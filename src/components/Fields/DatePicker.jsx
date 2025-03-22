@@ -5,38 +5,60 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { DateCalendar, DateField, LocalizationProvider } from '@mui/x-date-pickers';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 
+/**
+ * CustomDatePicker renders a date picker component with an input field and a calendar popper.
+ * Allows the user to either manually input a date or select one from the calendar.
+ *
+ * @param {Object} param0 - The props for the component:
+ * @param {string} label - The label for the date input field.
+ * @param {dayjs.Dayjs} publishDate - The current selected date.
+ * @param {function} setPublishDate - A function to update the selected date.
+ * @param {boolean} showId - A flag to control the styling of the date picker.
+ * @returns {JSX.Element} The rendered date picker component.
+ */
 function CustomDatePicker({ label, publishDate, setPublishDate, showId }) {
     const [openCalendar, setOpenCalendar] = useState(false);
     const [anchorEl, setAnchorEl] = useState(null);
 
-    const popperRef = useRef(null); // Ref for the Popper element
+    const popperRef = useRef(null); // Ref for the Popper element (calendar)
     const inputRef = useRef(null);  // Ref for the input element
 
-    // Handle date selection
+    /**
+     * Handles selecting a date from the calendar.
+     * @param {dayjs.Dayjs} date - The selected date.
+     */
     const handleDateSelect = (date) => {
         setPublishDate(date);
         setOpenCalendar(false);
     };
 
-    // Open calendar on input click
+    /**
+     * Opens the calendar popper when the input is clicked.
+     * @param {React.MouseEvent} event - The click event on the input field.
+     */
     const handleInputClick = (event) => {
         setAnchorEl(event.currentTarget);
         setOpenCalendar(true);
     };
 
-    // Handle manual input and parse date
+    /**
+     * Handles manual input change and parses the date from the input.
+     * @param {React.ChangeEvent} event - The input change event.
+     */
     const handleManualInputChange = (event) => {
         const inputValue = event.target.value;
-        const parsedDate = dayjs(inputValue, 'YYYY-MM-DD', true); // Customize date format if needed
+        const parsedDate = dayjs(inputValue, 'YYYY-MM-DD', true); // Adjust date format as needed
 
         if (parsedDate.isValid()) {
             setPublishDate(parsedDate);
         } else {
-            setPublishDate(dayjs()); // fallback if the input is invalid
+            setPublishDate(dayjs()); // Fallback to the current date if the input is invalid
         }
     };
 
-    // Close calendar when clicking outside of the Popper or input
+    /**
+     * Effect hook to close the calendar popper if clicking outside the component.
+     */
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (popperRef.current && !popperRef.current.contains(event.target) &&
@@ -45,10 +67,10 @@ function CustomDatePicker({ label, publishDate, setPublishDate, showId }) {
             }
         };
 
-        // Add the event listener for clicking outside
+        // Add event listener for outside clicks
         document.addEventListener('mousedown', handleClickOutside);
 
-        // Clean up the event listener when the component is unmounted
+        // Cleanup event listener when the component is unmounted
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
@@ -61,7 +83,7 @@ function CustomDatePicker({ label, publishDate, setPublishDate, showId }) {
                     ref={inputRef}  // Attach the ref to the input
                     label={label}
                     value={publishDate}
-                    onChange={handleManualInputChange} // Handle input changes
+                    onChange={handleManualInputChange} // Handle manual input changes
                     variant="filled"
                     fullWidth
                 />
@@ -91,12 +113,12 @@ function CustomDatePicker({ label, publishDate, setPublishDate, showId }) {
                         <DateCalendar
                             value={publishDate}
                             onChange={handleDateSelect}
-                            maxDate={dayjs().add(1, 'year')}
+                            maxDate={dayjs().add(1, 'year')} // Maximum selectable date is 1 year from today
                         />
                         <Button
                             variant='text'
                             sx={{
-                                marginLeft: "calc( 100% - 80px)"
+                                marginLeft: "calc(100% - 80px)" // Position the button on the far right
                             }}
                             onClick={() => { setOpenCalendar(false) }}
                         >

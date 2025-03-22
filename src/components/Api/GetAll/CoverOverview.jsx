@@ -14,9 +14,12 @@ import EditButton from "../../Buttons/EditButton";
 import CoverForm from "../../Forms/CoverForm";
 import fetchCover from "../../../Objects/fetch/fetchCover";
 import DataField from "../../Fields/DataField";
-import PersonForm from "../../Forms/PersonForm";
 import { DataGrid } from "@mui/x-data-grid";
 
+/**
+ * CoverOverview component that displays a list of covers and allows CRUD operations
+ * @returns {JSX.Element} The rendered component
+ */
 const CoverOverview = () => {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -43,6 +46,10 @@ const CoverOverview = () => {
 
     const activeApi = api.cover;
 
+    /**
+     * Fetches cover data when the component is mounted or when `id` or `shouldFetchData` changes.
+     * Retrieves the cover details based on the selected cover id, and updates the state for book, artist, and other related data.
+     */
     useEffect(() => {
         if (id) {
             fetchCover(activeApi, id, setBook, setArtist, setDesignIdeas, setBookId, setDigitalOnly, setArtistIds, setErrorSelected, setLoadingSelected);
@@ -50,17 +57,29 @@ const CoverOverview = () => {
         fetchData(activeApi, setData, setError, setLoading);
     }, [id, shouldFetchData]);
 
+    /**
+     * Handles the edit action for an existing cover by updating the cover data using the `Update` API method.
+     * After the update, triggers data re-fetch.
+     */
     const handleEditCover = async () => {
         await Update(activeApi, id, { id, designIdeas, digitalOnly, bookId, artistIds });
         setShouldFetchData(prev => !prev);
     };
 
+    /**
+     * Handles the delete action for a cover by calling the `Delete` API method.
+     * After deletion, resets the cover form and triggers data re-fetch.
+     */
     const handleDeleteCover = async () => {
         await Delete(activeApi, id);
         resetCover();
         setShouldFetchData(prev => !prev);
     };
 
+    /**
+     * Handles the creation of a new cover by calling the `Create` API method.
+     * After the cover is created, resets the form and triggers data re-fetch.
+     */
     const handleNewCover = async () => {
         await Create(activeApi, { designIdeas, digitalOnly, bookId, artistIds });
         setNewCover(false);
@@ -68,6 +87,9 @@ const CoverOverview = () => {
         setShouldFetchData(prev => !prev);
     }
 
+    /**
+     * Resets the form fields to their initial state.
+     */
     const resetCover = () => {
         setDesignIdeas("");
         setDigitalOnly(false);
@@ -78,11 +100,17 @@ const CoverOverview = () => {
         setId("");
     }
 
+    /**
+     * Initializes the state for creating a new cover, and resets the cover form fields.
+     */
     const handleInitSetNewCover = () => {
         resetCover();
         setNewCover(true);
     }
 
+    /**
+     * Maps the fetched cover data into a format suitable for displaying in the data grid.
+     */
     const dataRows = data.map((value, index) => ({
         id: value.id,
         designIdeas: value.designIdeas,
@@ -90,6 +118,9 @@ const CoverOverview = () => {
         bookId: value.bookId
     }));
 
+    /**
+     * Defines the columns to be displayed in the cover data grid.
+     */
     const dataColumns = [
         { field: "id", headerName: "id", width: 60 },
         { field: "designIdeas", headerName: "designIdeas", flex: 1 },
@@ -97,23 +128,31 @@ const CoverOverview = () => {
         { field: "bookId", headerName: "bookId" }
     ];
 
+    /**
+     * Maps the artist data into a format suitable for displaying in the artist data grid.
+     */
     const artistRows = artists?.map((value, index) => ({
         id: value.id,
         firstName: value.firstName,
         lastName: value.lastName,
     }));
 
+    /**
+     * Defines the columns to be displayed in the artist data grid.
+     */
     const artistColumns = [
         { field: "id", headerName: "ID", width: 60 },
         { field: "firstName", headerName: "First Name", flex: 1 },
         { field: "lastName", headerName: "Last Name", flex: 1 },
     ];
 
+    /**
+     * Handles the row click event in the cover data grid. Sets the `id` state to the clicked cover's `id`.
+     * @param {Object} params - The data from the clicked row.
+     */
     const handleRowClick = (params) => {
         setId(params.row["id"]);
     }
-
-
 
     return (
         <Box>

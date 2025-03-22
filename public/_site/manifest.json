@@ -1,0 +1,786 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Skole/H3/PWE/Project/BookPub/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Controllers.ActionController-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Controllers.ActionController-1.html",
+          "hash": "39nC4xvU3OHBUUc7+OWb9MnyWSwHxDoxdyCDqOh083M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Controllers.ArtistController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Controllers.ArtistController.html",
+          "hash": "I0t6vRwp1aylNefF3m7S4Vlol0yZNxtG6myeTbfOuCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Controllers.AuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Controllers.AuthController.html",
+          "hash": "iulCiqoNxi8MKv//lkZVWhAuJcGN0GKVZiDSzB0gXug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Controllers.AuthorsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Controllers.AuthorsController.html",
+          "hash": "e2A6Rpx/sBXWiFq+EquWpqSVUHmzPaaDpkr4OQj9WZM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Controllers.BookController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Controllers.BookController.html",
+          "hash": "x7tE/Yc5Q0aMVp2yvAue4U5FdDSn87+oqOhcEIt5l4g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Controllers.CoverController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Controllers.CoverController.html",
+          "hash": "N9AgDiqiPB3jxZEZiukqojWJNhSiN9qf0iqv9TY+na4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Controllers.HttpResponseGenerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Controllers.HttpResponseGenerator-1.html",
+          "hash": "KHHmO45vRnMxSZybajEldGhuDQcssKqCGI/I+nq9qpY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Controllers.IActionController-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Controllers.IActionController-1.html",
+          "hash": "z2/wRuvVBgbuzZCUnb/FuHUQXnfMClG9PVam4/B2Jqc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Controllers.html",
+          "hash": "5LdPyc8Q8dhPSge6iZ1IRqz2js8M3575c5Q3P6Bucio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.ActionFilters.ValidateCreate_FilterAttribute.html",
+          "hash": "ykeyed1wphBfEcg1AjPZW1qFhEFIXrThomXlAPP2hV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.ActionFilters.ValidateId_FilterAttribute.html",
+          "hash": "oEGo95UehGqYbv4WVb+t+DYVQmO8ECwlrHLbVpyV2qI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.ActionFilters.ValidateUpdate_FilterAttribute.html",
+          "hash": "oxNA3DzDzYDMTQowHVH4kpEuVte+cS0ADNB4SbaYQb4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.ActionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.ActionFilters.html",
+          "hash": "NR1k9HOyVCTXug0D9Whnp+lRYAdJPMU8KNJ/XuUaDbs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.BaseFilters.BaseExceptionFilterAttribute.html",
+          "hash": "FoPxRKyP9twnQULZMEvm3Rk2kjDtGzAKgzjgjnNjiaQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.BaseFilters.BaseFilterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.BaseFilters.BaseFilterAttribute.html",
+          "hash": "CUUT1EaASDyQnKkVTdUWpX9pIPZSaueuQ9BXFm1r+pk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.BaseFilters.FilterRepositoryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.BaseFilters.FilterRepositoryHandler.html",
+          "hash": "JGlvTaGrA/9qjVBWEzuybtcRQgiLvWRSXvKnl02qGNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.BaseFilters.RepoKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.BaseFilters.RepoKey.html",
+          "hash": "02qSYH6TdJfOW35gjKI1ARCO/SC+APKE5/YBNFxyigs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.BaseFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.BaseFilters.html",
+          "hash": "aWg/r2hgMJD0WpywYc+5ron2QHttouI7w0FD+y6/pcw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.ExceptionFilters.Update_ExceptionFilterAttribute.html",
+          "hash": "kCG/dprBBIayzvQTq0dkEm4I72mWgjEFIT5CAorDiOQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Filters.ExceptionFilters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Filters.ExceptionFilters.html",
+          "hash": "Iw1x8LAvPQlFDpRjejZjw1D97VP5LBmT+4u6UurcvnA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Migrations.Identity.InitialCreate_Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Migrations.Identity.InitialCreate_Identity.html",
+          "hash": "Ruqq8B+L+jrKAAISUHxv5gQIruevsUfDPIwJbE0WewU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Migrations.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Migrations.Identity.html",
+          "hash": "+N2RGJHs7+Lew8SHcJyFciEATr6tDmVnuuYS7XVE66g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Migrations.InitialCreate_Publisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Migrations.InitialCreate_Publisher.html",
+          "hash": "C1MgpyiDuMxOLn0ULSeCB8jjTLfngmup+B1jwRDdgVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPub.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPub.Migrations.html",
+          "hash": "oXqWsjN+xdZHSv7PXqcbLmc9Oq/1muzNe09XlsMlBVY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.DTOs.ArtistDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.DTOs.ArtistDto.html",
+          "hash": "WACYM3RBxywM+44in7ZbQDdFe3j30r7FZQheI404TqY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.DTOs.AuthorDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.DTOs.AuthorDto.html",
+          "hash": "7fniynkSzLRJMS/5WFRh/SNszjtb7YEO8yW5zPuPFXs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.DTOs.BookDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.DTOs.BookDto.html",
+          "hash": "eElJaX0Jf5Xyu2SS9CfA5dRejJiTvKHckceRlKQVa58="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.DTOs.CoverDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.DTOs.CoverDto.html",
+          "hash": "GC1EFheJHkFcIHwu5nwAKjMmORy3IEACRzY20WWgbcs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.DTOs.EntityMapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.DTOs.EntityMapper.html",
+          "hash": "r+/TscOxnpQbxXPZVpr0iPlA+5qFq2MZHEkvW0K2uHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.DTOs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.DTOs.html",
+          "hash": "FZJm5BlLjrWSTH2kNlmJmN+yGhiysC+aWCBp3BM3u4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Data.IdentityContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Data.IdentityContext.html",
+          "hash": "NyPfWc5rRjepkbZgBtEg0cPbPsvuU3iqqzMLIU4+0es="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Data.PublisherContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Data.PublisherContext.html",
+          "hash": "aZwXnfVUK17v3s+CW6kuRyff6V6ygIXenwv/pHGwb5c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Data.html",
+          "hash": "Ksc9Y+vk45JuCCpLkgBwY/+9pQIXQ/4oXs3+5FB1BzE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.Artist.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.Artist.html",
+          "hash": "zXrrkuXyoDkvz+kiXHr800gIS1eiBJkbFP4xQLQeOwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.Author.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.Author.html",
+          "hash": "GlnbQrkXNxG5JdZYX487DrlJGApIAWvfK7pZBUkzyTw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.Book.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.Book.html",
+          "hash": "fT5fKeKHXQOd0AOUtEwOHeWOE7PJIhohZj/v6JENhgU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.Cover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.Cover.html",
+          "hash": "+gXwmI1vsTyehlcg/FoZr4eb/2ZrSFdqaK2DwwQd7Hc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.Enums.ActionResultStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.Enums.ActionResultStatus.html",
+          "hash": "mE8Hp3dfc0it8sLMqz9cE2QQFuvzzSVnXJNOsbN/yX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.Enums.html",
+          "hash": "6UAQYCLGRIX/DEhETplorJ8Y8pOYRL1gLjeDEXXNsB4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.IItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.IItem.html",
+          "hash": "jeRUygEQWG5v7bSS+MNNivlzCvg3mX16fUYgi7o+0mw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.Identity.LoginUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.Identity.LoginUser.html",
+          "hash": "iw635TSLNhitHcwTgu7L1jQXasSj2opSXge4HV8A0Mc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.Identity.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.Identity.User.html",
+          "hash": "9l/l+Wc42eapbu/2Vq7FN0mdcmi8kLuUFYzAt1DxgQI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.Identity.html",
+          "hash": "707eDOr8YdCUHkf1wY9b7Hmm7tZa1eHtdEGkZXGk2z4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Model.html",
+          "hash": "G/mouhyq610jmuRpxe0pFOF/LLgn0KxwAQdE4yQ28k8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Repositories.ArtistRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Repositories.ArtistRepository.html",
+          "hash": "wL8v0rADbiPsxn3/1ltwRYzzGW2awQNFwHqq6kKpLt4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Repositories.AuthorRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Repositories.AuthorRepository.html",
+          "hash": "uQ0kE/lEL69OtWoPuUv8dINTrvXYR6S/ZV9GFCHsukI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Repositories.BookRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Repositories.BookRepository.html",
+          "hash": "BbwbKGS03cpdb5hpXz+jf3JNxiaCgKoldJYDOp/M9y0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Repositories.CoverRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Repositories.CoverRepository.html",
+          "hash": "IlyvLeXJg4vwiDXO+myMowpmooGmp2m7l5VKWgDkDLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Repositories.IFilterRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Repositories.IFilterRepository.html",
+          "hash": "VmUI/orBhcO7Js3i9JMxP4zDKJMA/KME+LirOQNl7jU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Repositories.IRepository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Repositories.IRepository-1.html",
+          "hash": "tyDrwXeBS1M0u/EHr/z2/diLaKjkFsBl3W7BSsAxBYw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Repositories.Repository-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Repositories.Repository-1.html",
+          "hash": "ErFeBNKtUWPIgmewy0Rr+Pg8ltYiR+aUPdvvyOczkCg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Repositories.UserRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Repositories.UserRepository.html",
+          "hash": "E6Y7oKPKpk3Jqiq5tDn6og+xDxbtduZWos++8vUcTM0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BookPubDB.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BookPubDB.Repositories.html",
+          "hash": "JO6YeGLknlGUD8ODvwceZr2hx0a4w+CTfDyDUsvVkEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Utils.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Utils.ObjectExtensions.html",
+          "hash": "+rw14yG5zVrWzstt5rQ5xvVy2Q6HZc7DNxS2VIzZfHs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Utils.html",
+          "hash": "5mvhTKl31MQci+g7Qolj/VTbPejpVgqQ4MYAuvYx+cM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "+hUKVptO96Zpd5hXkY0dhazYcAFW92r4wODVk2jqN6s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "CiG1KtMj6tKAlhHuXsCSh1SEQ3sjXdqinwi/aGiDORc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "5Fl7w/Tsvc1fhqukPEmjJe1A7k47peAtKPuD19HWNpE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "4hBvn7FM9fNvHuoLEdx8UOyF1aklUDkzUs7wRWw3iLg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 55,
+          "skipped_file_count": 13
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

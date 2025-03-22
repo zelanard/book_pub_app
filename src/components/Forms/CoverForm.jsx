@@ -1,9 +1,17 @@
 import { Box, Checkbox, FormControlLabel, List, ListItem, ListItemText, TextField } from "@mui/material";
-import AuthorSelect from "../Fields/AuthorSelect";
-import CustomDatePicker from "../Fields/DatePicker";
 import ArtistSelect from "../Fields/ArtistSelect";
 
+/**
+ * CoverkForm component for creating/editing cover details.
+ * 
+ * @param {Object} param0 
+ * @returns {JSX.Element} The BookForm component
+ */
 const CoverForm = ({ showId, id, designIdeas, bookId, digitalOnly, artistIds, setDesignIdeas, setBookId, setDigitalOnly, setArtistIds }) => {
+    /**
+     * Toggles the digitalOnly flag by inverting its current value.
+     * @param {*} digitalOnly - The current state of the digitalOnly flag.
+     */
     const handleDigitalOnly = (digitalOnly) => {
         setDigitalOnly(!digitalOnly);
     }

@@ -1,5 +1,12 @@
 import { Box, Button, Typography } from "@mui/material";
 
+/**
+ * CreateForm component for displaying a modal with form elements for creating new data.
+ * the form is created on a semi transparent black background covering everything other than the form.
+ * 
+ * @param {Object} param0 
+ * @returns {JSX.Element} The CreateForm component
+ */
 const CreateForm = ({ view, setView, title, handleCreate, dataFields }) => {
     return (
         <Box>

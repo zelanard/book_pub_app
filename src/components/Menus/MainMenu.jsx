@@ -16,7 +16,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import { Logout } from "@mui/icons-material";
 import { ListItemIcon, ListItemText } from '@mui/material';
 import { useAuth } from '../../context/AuthContext';
-
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 //icons
 import {
     MenuBook
@@ -28,6 +28,10 @@ import pages from '../../Objects/pages';
 
 const drawerWidth = 240;
 
+/**
+ * Main styled component that defines the layout of the main content area with sliding margin transition
+ * when the drawer is open or closed.
+ */
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
     ({ theme }) => ({
         flexGrow: 1,
@@ -59,6 +63,10 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
     }),
 );
 
+/**
+ * AppBar styled component that defines the top navigation bar layout and transition
+ * when the drawer is open or closed.
+ */
 const AppBar = styled(MuiAppBar, {
     shouldForwardProp: (prop) => prop !== 'open',
 })(({ theme }) => ({
@@ -81,6 +89,10 @@ const AppBar = styled(MuiAppBar, {
     ],
 }));
 
+/**
+ * DrawerHeader styled component that defines the header layout of the drawer with padding 
+ * to align the toolbar and ensure content remains under the app bar.
+ */
 const DrawerHeader = styled('div')(({ theme }) => ({
     display: 'flex',
     alignItems: 'center',
@@ -90,17 +102,26 @@ const DrawerHeader = styled('div')(({ theme }) => ({
     justifyContent: 'flex-start',
 }));
 
+/**
+ * DrawerHeader styled component that defines the header layout of the drawer with padding 
+ * to align the toolbar and ensure content remains under the app bar.
+ */
 export default function MainMenu() {
     const theme = useTheme();
     const { logout } = useAuth();
     const [open, setOpen] = useState(false);
     const [page, setPage] = useState("home");
 
-
+    /**
+     * Handle opening of the drawer
+     */
     const handleDrawerOpen = () => {
         setOpen(true);
     };
 
+    /**
+     * Handle closing of the drawer
+     */
     const handleDrawerClose = () => {
         setOpen(false);
     };
@@ -112,7 +133,7 @@ export default function MainMenu() {
                 <Toolbar>
                     <Typography component="div" variant="h6" noWrap sx={{ flexGrow: 1 }}>
                         <ButtonBox>
-                            <MenuBook sx={{ marginRight: "10px", height: "40px", width: "40px" }} />BookPub
+                            <MenuBook sx={{ marginRight: "10px", height: "40px", width: "40px" }} /> BookPub <ArrowRightIcon /> {page.charAt(0).toUpperCase() + page.slice(1)}
                         </ButtonBox>
                     </Typography>
                     <IconButton

@@ -2,6 +2,12 @@ import { Box, TextField } from "@mui/material";
 import AuthorSelect from "../Fields/AuthorSelect";
 import CustomDatePicker from "../Fields/DatePicker";
 
+/**
+ * BookForm component for creating/editing book details.
+ * 
+ * @param {Object} param0 
+ * @returns {JSX.Element} The BookForm component
+ */
 const BookForm = ({ showId, id, title, publishDate, basePrice, authorId, setTitle, setPublishDate, setBasePrice, setAuthorId }) => {
     return (
         <Box
